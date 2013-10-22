@@ -1,0 +1,16 @@
+CoreBaseMenuWidget:
+  tableName: core_base_menu_widget
+  columns:
+    widget_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    name:
+      type: string(45)
+      default: null
+  relations:
+    Widget:
+      class: CoreWidget
+      local: widget_id
+      foreign: id
+      onDelete: cascade

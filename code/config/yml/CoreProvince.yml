@@ -1,0 +1,21 @@
+CoreProvince:
+  tableName: core_province
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    country_id:
+      type: integer(4)
+      notnull: true
+    code:
+      type: string(4)
+    name:
+      type: string(255)
+  relations:
+    Country:
+      class: CoreCountry
+      local: country_id
+      foreign: id
+      onDelete: cascade

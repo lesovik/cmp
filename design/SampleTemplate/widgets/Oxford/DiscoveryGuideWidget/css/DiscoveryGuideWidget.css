@@ -1,0 +1,541 @@
+.DiscoveryGuide {
+    padding: 13px;
+}
+.DiscoveryGuideSelection optgroup option {
+    padding-left:15px;
+}
+.DiscoveryGuideGlossaryBtn {
+}
+.DiscoveryGuideGlossaryBtn a {
+    height: 17px;
+    width: 17px;
+    overflow: hidden;
+    position:relative;
+    display:inline-block;
+}
+.DiscoveryGuideGlossaryBtn a.number1 {
+    background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+    background-position: 51px 0;
+    /*background-color: #129032;*/
+    color:#FFF;
+}
+.DiscoveryGuideGlossaryBtn a.number1.toggled {
+    background-position: 51px 17px;
+}
+.DiscoveryGuideGlossaryBtn a.number2 {
+    background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+    background-position: 68px 0;
+    /*background-color:#880053;*/
+    color:#FFF;
+}
+.DiscoveryGuideGlossaryBtn a.number2.toggled {
+    background-position: 68px 17px;
+}
+.DiscoveryGuideGlossaryBtn a.number3 {
+    background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+    background-position: 0 0;
+    /*background-color: #000786;*/
+    color:#FFF;
+}
+.DiscoveryGuideGlossaryBtn a.number3.toggled {
+    background-position: 0px 17px;
+}
+.DiscoveryGuideGlossaryBtn a.number4 {
+    background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+    background-position: 34px 0;
+    /*background-color:#DFA700;*/
+    color:#FFF;
+}
+.DiscoveryGuideGlossaryBtn a.number4.toggled {
+    background-position: 34px 17px;
+}
+.DiscoveryGuideGlossaryBtn a.number5 {
+    background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+    background-position: 17px 0;
+    /*background-color:#940000;*/
+    color:#FFF;
+}
+.DiscoveryGuideGlossaryBtn a.number5.toggled {
+    background-position: 17px 17px;
+}
+.DiscoveryGuideContent span.number1, .DiscoveryGuideContent span.simple_number1_end {
+    color: #000786;
+}
+.DiscoveryGuideContent span.number2, .DiscoveryGuideContent span.simple_number2_end {
+    color: #940000;
+}
+.DiscoveryGuideContent span.number3, .DiscoveryGuideContent span.simple_number3_end {
+    color: #DFA700;
+}
+.DiscoveryGuideContent span.number4, .DiscoveryGuideContent span.simple_number4_end {
+    color: #129032;
+}
+.DiscoveryGuideContent span.number5, .DiscoveryGuideContent span.simple_number5_end {
+    color: #880053;
+}
+
+ul.DiscoveryGuideContent{
+    float:left;
+    clear:both;
+    width:99%;
+}
+ul.DiscoveryGuideContent li{
+    float:left;
+    clear:both;
+    width:100%;
+}
+.DiscoveryGuideContent  ul li{
+    float:left;
+    clear:both;
+    /*width:95%;*/
+}
+.DiscoveryGuideContent ul{
+    margin: 3px 10px 10px 13px;
+
+}
+ul.DiscoveryGuideContent li{
+    padding:3px;
+}
+.DiscoveryGuideContent .odd_row {
+    /* background-color:#eaeaea;*/
+}
+.DiscoveryGuideContent .even_row {
+    /* background-color: #e4e4ea;*/
+}
+.DiscoveryGuideContent li .odd_row {
+    /* background-color:#edeaea;*/
+}
+.DiscoveryGuideContent li .even_row {
+    /*background-color:#fff;*/
+}
+.discoveryNavBtn {
+    color:#333333;
+    font-size:10px;
+    text-transform:uppercase;
+}
+.DiscoveryGuide .CategoryNameWrap {
+    background:url("/design/SampleTemplate/images/icons/arrow_right.png") no-repeat scroll -2px 2px #ceced5;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    padding:5px 0 5px 17px;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+.CategoryNameWrap.toggled {
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll -2px 2px #EAEAEA;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    padding:5px 0 5px 17px;
+    text-transform:uppercase;
+}
+.CategoryName {
+    /*color: black;*/
+}
+ul.CategoryText li {
+    /*background:url("/design/SampleTemplate/widgets/Oxford/Shared/images/add_journal_btn.png") no-repeat scroll 0 5px transparent;*/
+    padding:0 23px;
+    position: relative;
+}
+
+span.journalBtn {
+    background:url("/design/SampleTemplate/widgets/Oxford/Shared/images/add_journal_btn.png") no-repeat scroll 0 0 transparent;
+    display:block;
+    height:12px;
+    left:0;
+    position:absolute;
+    top:8px;
+    width:18px;
+    cursor: pointer;
+}
+p.discoveryGuideCategoryText {
+    line-height: 19px;
+    margin:5px 0;
+    padding-right:23px;
+}
+.CategoryText li {
+    
+}
+.CategoryText li ul {
+    display:block !important;
+	padding-bottom:0;
+	padding-left:40px;
+	padding-bottom:12px;
+	margin:0;
+}
+.CategoryText li ol {
+	padding-bottom:0;
+	padding-left:40px;
+}
+.CategoryText li ul li{
+    list-style: disc outside none;
+	padding:0;
+	float:none;
+}
+.CategoryText li ol li{
+    list-style:decimal outside none;
+	padding:0;
+	float:none;
+}
+
+/************************************
+ *  - BACK END ADMIN/EDIT STYLES -  *
+ ************************************/
+.CategoryNameWrap.Togglable.Open {
+    background-color: #eaeaea;
+
+    padding:3px 0 3px 0;
+}
+.Editable{
+    padding:0;
+    position:relative;
+}
+.Editable .EditArea{
+    width:250px;
+    height: 60px;
+    background-color: #E6E6E6;
+    position:absolute;
+    top:13px;
+    left:0;
+    border: 1px solid #999;
+    display:none;
+}
+.ClickArea{
+    position:relative;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    top:-3px;
+    left:0;
+    padding:2px 5px 0 5px;
+    float:left;
+}
+.OnEdit .ClickArea{
+    z-index:20;
+}
+.OnEdit .EditArea{
+    z-index:10;
+}
+.RearEndQuestionCopy .ClickArea div{
+
+    font-style: normal;
+
+}
+.RearEndQuestionCopy .OnEdit .ClickArea{
+    display:none;
+}
+.Open .ClickArea{
+    cursor:pointer !important;
+    color:green;
+
+}
+.Open  .OnEdit .ClickArea{
+    background-color: #E6E6E6;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.Open .Editable.OnEdit .EditArea{
+    display:block;
+    padding:5px;
+}
+.CategoryAdminArrow{
+    float:right;
+    width:37px;
+    height: 39px;
+    background: transparent url(/design/SampleTemplate/widgets/Oxford/SelfCheckWidget/images/big_arrow_down.png) center 13px no-repeat;
+    font-family: "GothamBold";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    line-height: 11px;
+    cursor: pointer;
+}
+.Open .CategoryAdminArrow{
+    background: transparent url(/design/SampleTemplate/widgets/Oxford/SelfCheckWidget/images/big_arrow_up.png) center 13px no-repeat;
+}
+.Open li .CategoryAdminArrow{
+    background: transparent url(/design/SampleTemplate/widgets/Oxford/SelfCheckWidget/images/big_arrow_down.png) center 13px no-repeat;
+}
+.Open li.Open .CategoryAdminArrow{
+    background: transparent url(/design/SampleTemplate/widgets/Oxford/SelfCheckWidget/images/big_arrow_up.png) center 13px no-repeat;
+}
+.Open li.Open  li .CategoryAdminArrow{
+    background: transparent url(/design/SampleTemplate/widgets/Oxford/SelfCheckWidget/images/big_arrow_down.png) center 13px no-repeat;
+}
+.Open li.Open  li.Open .CategoryAdminArrow{
+    background: transparent url(/design/SampleTemplate/widgets/Oxford/SelfCheckWidget/images/big_arrow_up.png) center 13px no-repeat;
+}
+.OnEdit .DiscoveryGuideName.ClickArea{
+    visibility:hidden;
+}
+.OnEdit .CategoryTextBlob.ClickArea{
+    visibility:hidden;
+}
+.DiscoveryGuideNameWrap.Editable .EditArea{
+    top:2px;
+    left:20px;
+
+}
+.discoveryGuideCategoryText.Editable .EditArea{
+    top:2px;
+    width:640px;
+    height: 345px;
+    text-align:center;
+}
+.discoveryGuideCategoryText.Editable.OnEdit .EditArea{
+    display:block;
+}
+.Editable.discoveryGuideCategoryText .CategoryTextBlob {
+    clear:both;
+    padding:0 0px;
+    margin:10px 0 10px 0;
+}
+ul.CategoryText li.textItem.Last {
+    border-bottom:0px none #C3C3C3;
+}
+.TocEditToggler{
+    float:right;
+    text-transform: none;
+    font-size: 10px;
+    cursor:pointer;
+}
+.discoveryGuideCategoryText.Editable.Main .EditArea {
+    height:63px;
+    text-align:center;
+    top:-2px;
+    width:260px;
+}
+.discoveryGuideCategoryText.Editable.Main.OnEdit .ClickArea {
+    visibility:hidden;
+}
+.discoveryGuideCategoryText.Editable.Main.OnEdit .EditArea .FieldDiv.string input {
+
+    margin-top:6px !important;
+}
+.RightAdminZone .DiscoveryGuideContent li {
+    position:relative;
+}
+.RightAdminZone .DiscoveryGuideContent li li {
+    padding:7px 0 2px 8px;
+}
+.RightAdminZone .DiscoveryGuideContent li ul{
+    display:none;
+}
+.RightAdminZone .DiscoveryGuideContent li.Open ul{
+    display:block;
+}
+.RightAdminZone .DiscoveryGuideContent li.Open ul li ul{
+    display:none;
+}
+.RightAdminZone .DiscoveryGuideContent li.Open ul li.Open ul{
+    display:block;
+}
+.RightAdminZone .DiscoveryGuideContent .CategoryTextBlob ul {
+	padding-left:40px !important;
+	margin:0 !important;
+	padding-top:12px !important;
+}
+.RightAdminZone .DiscoveryGuideContent .CategoryTextBlob ol {
+	padding-left:40px !important;
+	margin:0 !important;
+	padding-top:12px !important;
+	padding-bottom:12px !important;
+}
+.RightAdminZone .DiscoveryGuideContent .CategoryTextBlob ul li {
+	margin:0 !important;
+	padding:0 !important;
+}
+.RightAdminZone .DiscoveryGuideContent .CategoryTextBlob ol li {
+	margin:0 !important;
+	padding:0 !important;
+}
+.DiscoveryGuideButton{
+    position: absolute !important;
+    right:50px;
+    top:10px;
+    text-transform: none;
+    font-style: italic;
+    font-size: 10px;
+    cursor: pointer;
+    display:none;
+}
+.DiscoveryGuideButton a:hover{
+    color:#999;
+}
+li.Open .DiscoveryGuideButton{
+
+    display:block;
+}
+
+li.Open ul li .DiscoveryGuideButton{
+
+    display:none;
+}
+li.Open ul li.Open .DiscoveryGuideButton{
+
+    display:block;
+}
+
+.DiscoveryGuideButton.AddText{
+    top:30px;
+}
+.DiscoveryGuideButton .EditArea{
+    left:-151px !important;
+}
+
+.DiscoveryGuideSelection {
+    text-transform: none;
+    position:relative;
+    top:-2px;
+}
+.ButtonWrap{
+    float:left;
+    width:100%;
+    text-align: center;
+}
+.DiscoveryGuideButton  .ClickArea{
+    position:relative;
+}
+
+.DiscoveryGuideButton  .EditArea{
+    top:11px !important;
+}
+.DiscoveryGuideButton.AddSub  .EditArea{
+    z-index:49 !important;
+}
+.DiscoveryGuideButton.AddSub  .ClickArea{
+    z-index:50 !important;
+}
+.DiscoveryGuideButton.AddText  .EditArea{
+    left:-544px !important;
+    width:600px;
+    height:350px;
+}
+.ui-sortable .discoveryGuideCategoryText.Editable {
+    float:right;
+    width: 97%;
+}
+.ui-sortable.CategoryText {
+    min-height: 100px;
+
+}
+.ui-sortable.CategoryText textItem{
+    margin-left:10px;
+
+}
+.CategoryText .SortArrow{
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.SortArrow.CategoryArrow{
+    visibility:hidden;
+    margin-top:9px;
+    margin-left: 10px;
+    margin-right: 0px;
+    display:none;
+}
+li li .SortArrow.CategoryArrow{
+    display:block;
+}
+li.Open li .SortArrow.CategoryArrow{
+    visibility:visible;
+}
+.DiscoveryGuideChapterTree .DiscoveryGuideNameWrap, .DiscoveryGuideContent .DiscoveryGuideNameWrap {
+    background-color:transparent;
+    padding:3px;
+    float:left;
+    width:99%;
+}
+ul li ul li.DiscoveryGuideNameWrap{
+    width:95%;
+}
+.DiscoveryGuideContent .DiscoveryGuideNameWrap {
+    background:url("/design/SampleTemplate/images/icons/arrow_right.png") no-repeat scroll -2px 2px #CECED5;
+}
+.DiscoveryGuideNameWrap.Editable {
+    background:none no-repeat scroll -2px 2px #CECED5;
+}
+.DiscoveryGuideNameWrap .Crude {
+    clear: none;
+}
+.DiscoveryGuideChapterTree .DiscoveryGuideName, .DiscoveryGuideContent .DiscoveryGuideName {
+    /*font-weight: bold;*/
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    cursor:default;
+    margin-left:5px;
+    margin-top:2px;
+}
+.DiscoveryGuideContent .DiscoveryGuideName {
+    padding-left:13px;
+}
+
+.DiscoveryGuideChildRow .DiscoveryGuideNameWrap .DiscoveryGuideName {
+    font-weight: normal;
+    font-family:Helvetica,sans-serif;
+    font-size:13px;
+}
+.DiscoveryGuideChildRow.even_row .DiscoveryGuideNameWrap {
+    background-color: transparent;
+    padding: 0 0 0 0;
+}
+.DiscoveryGuideChildRow.odd_row .DiscoveryGuideNameWrap {
+    background-color: transparent;
+    padding: 0 0 0 0;
+}
+.discoveryGuideCategoryText .Crude {
+    float: left !important;
+    clear: none !important;
+    display: block !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.discoveryGuideCategoryText .CategoryTextBlob {
+    clear: both;
+    padding: 0 5px;
+}
+
+.DiscoveryGuideContent .even_row, .DiscoveryGuideContent .odd_row {
+    background-color: transparent !important;
+}
+ul.ListUl.DiscoveryGuideContent li.even_row, ul.ListUl.DiscoveryGuideContent li.odd_row {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.DiscoveryGuideName.ClickArea{
+    padding-left: 9px;
+    margin-left: 0;
+    margin-top: 9px;
+}
+.BaseListWidget .CategoryText{
+    border: 1px dotted green;
+    background-color: #f1f1f1;
+    float:left;
+    width:97%;
+}
+.BaseListWidget .Subcategories{
+    border: 1px dotted green;
+    float:left;
+    width:97%;
+}
+.BaseListWidget .SubcatagoryLI {
+
+    float:left;
+
+}
+.DragTexts,.DragCategories{
+    color:#CCCCCC;
+    float:left;
+    font-size:20px;
+    margin-top:30px;
+    text-align:center;
+    width:100%;
+}
+.ui-sortable.Subcategories  {
+min-height:100px;
+}

@@ -1,0 +1,34 @@
+CoreTrace:
+  tableName: core_trace
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    created_at:
+      type: timestamp
+    updated_at:
+      type: timestamp
+    status:
+      type: enum
+      values: ['active','pending','delete']
+    created_by:
+      type: integer(4)
+    updated_by:
+      type: integer(4)
+    reference:
+      type: clob(255)
+  relations:
+    createdBy:
+      class: CoreUser
+      local: created_by
+      foreign: id
+      onDelete: set null
+    updatedBy:
+      class: CoreUser
+      local: updated_by
+      foreign: id
+      onDelete: set null
+  noList: [reference]
+  noBaseForm: [created_at,updated_at,created_by,updated_by]

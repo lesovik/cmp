@@ -1,0 +1,153 @@
+.TabHeadWrap{
+    z-index: 1;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.TabHeadBody{
+    float: left;
+    padding: 13px 13px 0px 13px;
+    height: 38px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10px;
+    color: #fff;
+    font-family: "GothamMedium";
+    background: transparent url(../images/tab_off_middleandedge.gif) top left repeat-x;
+    overflow:hidden;
+}
+
+.Selected .TabHeadBody{
+    color: #333;
+    background: transparent url(../images/tab_on_middlespan.png) top left repeat-x;
+}
+.TabHeadEdge{
+    float: left;
+    padding: 0;
+    height: 48px;
+    width: 1px;
+    background: transparent;
+    background:url("../images/tab_off_middleandedge.gif") repeat-x scroll 
+
+}
+.Selected .TabHeadEdge{
+    background: transparent url(../images/tab_on_edges.png) top left repeat-x;
+}
+.TabSpacer{
+    float: left;
+    padding: 0;
+    height: 48px;
+    width: 1px;
+}
+
+.TabWidget{
+    height: 500px;
+}
+.TabContentHead select{
+    border:2px solid gray;
+    color:grey;
+    font-family:"GothamMedium";
+    font-size:11px;
+    padding:1px;
+}
+.TabContentHead select option{
+    font-family: "GothamMedium";
+}
+.TabContentHead select optgroup{
+    font-family: "GothamMedium";
+}
+.TabContentHead select optgroup option{
+    padding-left:15px;
+}
+.TabContent{
+    background: white;
+    float: left;
+    width:504px;
+    display: none;
+    top: 47px;
+
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    height: 452px;
+}
+.TabContentHead{
+    background: transparent url(../images/TabContentHeaderBg.png) top left repeat-x;
+    float: left;
+    height: 30px;
+    width: 478px;
+    padding:5px 13px 0 13px;
+
+}
+.TabContentBody{
+
+     background: transparent url(../images/tab_gradient_right.png) top right repeat-y;
+    float:left;
+    width: 100%;
+    overflow: auto;
+	overflow-x:hidden;
+	position: relative;
+}
+
+.Selected .TabContent {
+    background: #dbdbe0 url(../images/tab_gradient_left.png) top left repeat-y;
+    display:block;
+    position:absolute;
+    left: 0;
+}
+.BookLeftZone .Selected .TabContent {
+    left: 0;
+}
+
+h2.TabSubHeader {
+   clear:both;
+   color:black;
+   font-family:"GothamBold";
+   margin-bottom:13px;
+   text-transform:uppercase;
+   font-weight:normal;
+}
+.NestedTabsWidget{
+
+	height:51px;
+	overflow:hidden;
+	width:100%;
+}
+.NestedTabsWidget .ui-sortable-placeholder {
+	display:none;
+}
+.TabZoneDivider{
+    width:12px;
+    min-height:500px;
+    background:url("../images/tab_spacer.png") repeat-y scroll left top ;
+    float:left;
+}
+.TabZoneDivider.Last{
+    display:none;
+}
+.TabContentBody .Loader {
+	font-size:15pt;
+	padding:10px;
+	text-align:center;
+	position:relative;
+	top:50%;
+	margin-top:-12px;
+        font-family:"GothamBold";
+        font-weight: normal;
+}
+.TabContentBody .Loader.Overlay {
+
+	position:absolute;
+	top:36%;
+        left:33%;
+	background-color: #DBDBE0;
+        border:2px dotted #ccc;
+        width:300px;
+        height:30px;
+}
+.TabContentBody .Loader img {
+	vertical-align:middle;
+}
+body{
+    overflow:hidden;
+}

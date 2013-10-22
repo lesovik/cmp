@@ -1,0 +1,16 @@
+CoreFile:
+  tableName: core_file
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(155)
+    extension:
+      type: string(20)
+    size:
+      type: integer(4)
+    original_name:
+      type: string(155)

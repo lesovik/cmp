@@ -1,0 +1,19 @@
+CoreLanguage:
+  tableName: core_language
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: clob(255)
+    code:
+      type: integer(4)
+  relations:
+    Users:
+      class: CoreUser
+      local: id
+      remote: user_id
+      foreign: language_id
+      type: many

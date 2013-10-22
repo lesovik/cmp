@@ -1,0 +1,11 @@
+CoreRolePermission:
+  tableName: core_role_permission
+  columns:
+    role_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    permission_id:
+      type: integer(4)
+      primary: true
+      notnull: true

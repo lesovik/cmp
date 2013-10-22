@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book SYSTEM "http://megazine.mightypirates.de/megazine.dtd">
+<book bgcolor="0xCCCC99" pageheight="600" pagewidth="400" lang="en,de">
+	<chapter>
+		<page stiff="true" anchor="cover">
+			<img src="src/cover_front.jpg" aa="true" width="400" height="600"/>
+		</page>
+		<page>
+			<img src="src/cover_front_in.jpg" aa="true" width="400" height="600"/>
+		</page>
+		<page>
+			<img src="src/swf/esmag1.swf" hires="src/swf/esmag1.swf" iconpos="left top" rasterize="true" overlay="none" width="400" height="600"/>
+			<area left="46" top="205" width="265" height="26" url="http://www.uli-blasi.com/" overlay="none"/>
+		</page>
+		<page>
+			<img src="src/copyright.jpg" width="400" height="600"/>
+		</page>
+		<page>
+			<img width="400" height="600">
+				<src lang="en">src/en/contents.jpg</src>
+				<src lang="de">src/de/contents.jpg</src>
+			</img>
+			<nav align="center" color="#423e21" hover="#5e5934" width="325" left="25" top="200">
+				<lnk url="anchor:download"><![CDATA[<font face="serif" size="24">Download</font>]]></lnk>
+				<lnk url="anchor:prologue"><![CDATA[<font face="serif" size="24">Prologue</font>]]></lnk>
+				<lnk url="anchor:chapter1"><![CDATA[<font face="serif" size="24">Chapter I - Features</font>]]></lnk>
+				<lnk url="anchor:chapter2"><![CDATA[<font face="serif" size="24">Chapter II - Elements</font>]]></lnk>
+				<lnk url="anchor:references"><![CDATA[<font face="serif" size="24">References</font>]]></lnk>
+				<lnk url="anchor:epilogue"><![CDATA[<font face="serif" size="24">Epilogue</font>]]></lnk>
+				<lnk lang="de" url="anchor:download"><![CDATA[<font face="serif" size="24">Download</font>]]></lnk>
+				<lnk lang="de" url="anchor:prologue"><![CDATA[<font face="serif" size="24">Prolog</font>]]></lnk>
+				<lnk lang="de" url="anchor:chapter1"><![CDATA[<font face="serif" size="24">Kapitel I - Features</font>]]></lnk>
+				<lnk lang="de" url="anchor:chapter2"><![CDATA[<font face="serif" size="24">Kapitel II - Elemente</font>]]></lnk>
+				<lnk lang="de" url="anchor:references"><![CDATA[<font face="serif" size="24">Referenzen</font>]]></lnk>
+				<lnk lang="de" url="anchor:epilogue"><![CDATA[<font face="serif" size="24">Epilog</font>]]></lnk>
+			</nav>
+		</page>
+		<page anchor="download">
+			<img>
+				<src lang="en">src/en/page_download.jpg</src>
+				<src lang="de">src/de/page_download.jpg</src>
+			</img>
+			<area left="140" top="270" width="120" height="26" url="../../download/mz3v135.zip" overlay="none">
+				<title lang="en">Download the latest version (1.35)</title>
+				<title lang="de">Neueste Version herunterladen (1.35)</title>
+			</area>
+			<area left="95" top="466" width="210" height="26" url="mailto:florian@nuecke.de?subject=MegaZine 3" title="florian@nuecke.de" overlay="none"/>
+		</page>
+		<page anchor="prologue">
+			<img width="400" height="600">
+				<src lang="en">src/en/prologue.jpg</src>
+				<src lang="de">src/de/prologue.jpg</src>
+			</img>
+		</page>
+		<page anchor="chapter1">
+			<img width="400" height="600">
+				<src lang="en">src/en/page01.jpg</src>
+				<src lang="de">src/de/page01.jpg</src>
+			</img>
+		</page>
+		<page bgcolor="0">
+			<img width="400" height="600">
+				<src lang="en">src/en/page02.png</src>
+				<src lang="de">src/de/page02.png</src>
+			</img>
+		</page>
+		<page bgcolor="0" anchor="chapter2">
+			<img width="400" height="600">
+				<src lang="en">src/en/page03.png</src>
+				<src lang="de">src/de/page03.png</src>
+			</img>
+		</page>
+		<page>
+			<img width="400" height="600">
+				<src lang="en">src/en/page04.jpg</src>
+				<src lang="de">src/de/page04.jpg</src>
+			</img>
+			<img src="src/zoom.jpg" left="73" top="127" hires="src/zoom2.jpg" iconpos="left" gallery="bali" overlay="none" width="256" height="163"/>
+			<img src="src/zoom3.jpg" left="75" top="345" hires="src/zoom4.jpg" iconpos="left top" gallery="bali" overlay="none" width="255" height="175"/>
+		</page>
+		<page foldfx="0">
+			<img src="src/page05.jpg" width="400" height="600"/>
+			<snd src="src/waves.mp3"/>
+		</page>
+		<page foldfx="0">
+			<img width="400" height="600">
+				<src lang="en">src/en/page06.jpg</src>
+				<src lang="de">src/de/page06.jpg</src>
+			</img>
+		</page>
+		<page>
+			<vid src="src/myst.flv" left="93" top="225" width="215" height="161"/>
+			<img width="400" height="600">
+				<src lang="en">src/en/page07.png</src>
+				<src lang="de">src/de/page07.png</src>
+			</img>
+		</page>
+		<page anchor="references">
+			<img width="400" height="600">
+				<src lang="en">src/en/page08.jpg</src>
+				<src lang="de">src/de/page08.jpg</src>
+			</img>
+			<area left="46" top="205" width="265" height="26" url="http://www.uli-blasi.com/" overlay="none"/>
+			<area left="46" top="335" width="155" height="26" url="http://quirin.kaduz.de/bin/" overlay="none"/>
+		</page>
+		<page anchor="epilogue">
+			<img width="400" height="600">
+				<src lang="en">src/en/epilogue.jpg</src>
+				<src lang="de">src/de/epilogue.jpg</src>
+			</img>
+			<area left="95" top="482" width="210" height="26" url="mailto:florian@nuecke.de?subject=MegaZine 3" title="florian@nuecke.de" overlay="none"/>
+		</page>
+		<page>
+			<img width="400" height="600" src="src/cover_back_in.jpg" aa="true"/>
+		</page>
+		<page stiff="true">
+			<img aa="true" width="400" height="600">
+				<src lang="en">src/en/cover_back.jpg</src>
+				<src lang="de">src/de/cover_back.jpg</src>
+			</img>
+		</page>
+	</chapter>
+</book>

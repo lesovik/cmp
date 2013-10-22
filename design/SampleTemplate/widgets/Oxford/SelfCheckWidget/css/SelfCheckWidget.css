@@ -1,0 +1,1010 @@
+li.Horizontal ul.Answers li, li.True_False ul.Answers li {
+    margin-right:26px;
+}
+
+ul.PlayscriptSelfcheck{
+    float:left;
+    clear:both;
+    width:99%;
+}
+ul.PlayscriptSelfcheck li{
+    float:left;
+    clear:both;
+    width:100%;
+}
+.PlayscriptSelfcheck  ul li{
+    float:left;
+    clear:both;
+    width:95%;
+}
+.PlayscriptSelfcheck ul{
+    margin: 3px 10px 6px 6px;
+
+}
+ul.PlayscriptSelfcheck li{
+    margin:0 0 6px 0;
+}
+ul.PlayscriptSelfcheck li ul li{
+    padding:2px 0 2px 6px;
+    margin-bottom: 0px;
+}
+
+
+.PlayscriptSelfcheck li .even_row {
+    background-color:transparent;
+}
+.PlayscriptSelfcheck li .odd_row {
+    background-color:#e4e4ea;
+}
+.SelfcheckNameWrap{
+    float:left;
+    width:99%;
+}
+.SelfcheckName {
+    float:left;
+    padding:0 0 0 6px;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    text-transform: uppercase;
+}
+li li .SelfcheckName {
+    float:left;
+    padding:0 0 0 6px;
+    font-family:Helvetica;
+    font-size:13px;
+    line-height:13px;
+    text-transform: none;
+}
+.SelfcheckName.OuterHeader {
+    float:left;
+    background:url("/design/SampleTemplate/images/icons/arrow_right.png") no-repeat scroll -2px -1px transparent;
+
+    font-family: 'GothamBold',Helvetica,sans-serif;
+    text-transform: uppercase;
+    font-size:14px;
+    line-height: 14px;
+    padding:2px 0 0px 17px;
+}
+.Open .SelfcheckName.OuterHeader {
+
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll -2px -1px transparent;
+
+
+}
+.SelfcheckNameWrap {
+    background-color: #ceced5;
+
+    padding:3px 0 3px 0;
+}
+.BaseListWidget .SelfcheckNameWrap {
+    background-color: transparent;
+
+}
+li li .SelfcheckNameWrap {
+    cursor:default;
+    background-color: transparent;
+}
+.SelfcheckNameWrap.Togglable {
+    cursor:pointer;
+}
+.SelfcheckNameWrap.Togglable.Open {
+    background-color: #eaeaea;
+
+    padding:3px 0 3px 0;
+}
+
+/*******************************
+ * SELFCHECK STYLES
+ *******************************/
+.SelfCheckOverview {
+    padding: 13px;
+}
+.selfcheckTestQuestion{
+    clear:both;
+}
+.prog_bar {
+    height:20px;
+    width:200px;
+    font-size:13px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    float:right;
+    margin-left:20px;
+}
+.SelfCheckTitleWrap .prog_bar{
+    margin-left:0;
+    height:22px;
+}
+.prog_bar .percent {
+    position: absolute;
+    color: #333333 !important;
+    margin-left:10px;
+    font-family: 'GothamBold',Helvetica,sans-serif;
+    font-size:12px;
+    margin-top:2px;
+    font-weight: normal;
+}
+.TestWrap{
+    float:left;
+    width:100%;
+}
+.SelfcheckViewResultWrap{
+    float:left;
+    margin-bottom:13px;
+    width:100%;
+}
+.SelfcheckViewResultWrap .SelfcheckNameWrap{
+    margin-top: 6px;
+}
+
+
+
+
+/* small bar */
+.prog_bar .unansweredCapLeft {
+    background: transparent url(../images/prog_bar-left_cap.png) left top no-repeat;
+    height: 20px;
+    width:7px;
+    float: left;
+    z-index: 2;
+    position: absolute;
+    left: -7px;
+}
+.SelfCheckTitleWrap .prog_bar .unansweredCapLeft {
+    background: transparent url(../images/lg-prog_bar-left_cap.png) left top no-repeat;
+    height: 24px;
+    width:6px;
+    left: -6px;
+}
+.prog_bar .unansweredCapRight {
+    background: transparent url(../images/prog_bar-right_cap.png) left top no-repeat;
+    height: 20px;
+    width:7px;
+    float: left;
+    z-index: 2;
+    position: absolute;
+    right: -7px;
+}
+.SelfCheckTitleWrap .prog_bar .unansweredCapRight {
+    background: transparent url(../images/lg-prog_bar-right_cap.png) left top no-repeat;
+    height: 24px;
+    width:6px;
+    float: left;
+    z-index: 2;
+    position: absolute;
+    right: -6px;
+}
+.prog_bar .unanswered {
+    background: transparent url(../images/prog_bar-middle.png) left top repeat-x;
+    height: 20px;
+    float:left;
+    z-index: 1;
+    position: relative;
+    width:166px;
+}
+.SelfCheckTitleWrap .prog_bar .unanswered {
+    background: transparent url(../images/lg-prog_bar-middle.png) left top repeat-x;
+    height: 24px;
+    width:166px;
+}
+.prog_bar .correct {
+    background: transparent url(../images/prog_bar-CORRECT-middle.png) left 2px repeat-x;
+    height: 20px;
+    z-index: 10;
+    display:block;
+    position:absolute;
+    color: white;
+    text-align: left;
+    z-index: 20;
+    width:20px;
+}
+.SelfCheckTitleWrap .prog_bar .correct {
+    background: transparent url(../images/lg-prog_bar-CORRECT-middle.png) left 2px repeat-x;
+    height: 24px;
+    width:20px;
+}
+.prog_bar .unanswered .correctCapLeft {
+    background: transparent url(../images/prog_bar-CORRECT-left_cap.png) left 2px no-repeat;
+    height: 20px;
+    width: 4px;
+    position:absolute;
+    left:-4px;
+    z-index: 15;
+}
+.SelfCheckTitleWrap .prog_bar .unanswered .correctCapLeft {
+    background: transparent url(../images/lg-prog_bar-CORRECT-left_cap.png) left 2px no-repeat;
+    height: 24px;
+    width: 2px;
+    left:-2px;
+}
+.prog_bar .unanswered .correctCapRight {
+    background: transparent url(../images/prog_bar-CORRECT-right_cap.png) left 2px no-repeat;
+    height: 20px;
+    width: 4px;
+    right:-4px;
+    z-index: 15;
+    position: absolute;
+}
+.SelfCheckTitleWrap .prog_bar .unanswered .correctCapRight {
+    background: transparent url(../images/lg-prog_bar-CORRECT-right_cap.png) left 2px no-repeat;
+    height: 24px;
+    width: 2px;
+    right:-2px;
+}
+.prog_bar .incorrect {
+    background: transparent url(../images/prog_bar-INCORRECT-middle.png) left 2px repeat-x;
+    height: 20px;
+    z-index: 5;
+    position: absolute;
+    left: -2px;
+    width:70px;
+}
+.SelfCheckTitleWrap .prog_bar .incorrect {
+    background: transparent url(../images/lg-prog_bar-INCORRECT-middle.png) left 2px repeat-x;
+    height: 24px;
+    left: -1px;
+    width:70px;
+}
+.prog_bar .unanswered .incorrectCapRight {
+    background: transparent url(../images/prog_bar-INCORRECT-right_cap.png) left 2px no-repeat;
+    height: 20px;
+    width: 4px;
+    z-index: 6;
+    position: absolute;
+    right: -4px;
+}
+.SelfCheckTitleWrap .prog_bar .unanswered .incorrectCapRight {
+    background: transparent url(../images/lg-prog_bar-INCORRECT-right_cap.png) left 2px no-repeat;
+    height: 24px;
+    width: 2px;
+    right: -2px;
+}
+.prog_bar .unanswered .incorrectCapLeft {
+    background: transparent url(../images/prog_bar-INCORRECT-left_cap.png) left 2px no-repeat;
+    height: 20px;
+    width: 4px;
+    z-index: 6;
+    position: absolute;
+    left: -4px;
+}
+.SelfCheckTitleWrap .prog_bar .unanswered .incorrectCapLeft {
+    background: transparent url(../images/lg-prog_bar-INCORRECT-left_cap.png) left 2px no-repeat;
+    height: 24px;
+    width: 2px;
+    left: -2px;
+}
+.prog_bar .TotalCount{
+    position:absolute;
+    z-index:50;
+    right:-3px;
+    top:2px;
+    font-size: 12px;
+    line-height: 17px;
+
+}
+.prog_bar .SelfCheckCorrectCount{
+    font-size: 12px;
+    left:-3px;
+    position:absolute;
+    z-index:50;
+    top:2px;
+    line-height:17px;
+}
+.selfcheckOverview {
+    float:right;
+    padding-bottom:13px; 
+    width:100%;
+}
+.selfcheckOverview .top {
+    float:right;
+    width:207px;
+    position:relative; 
+}
+.selfcheckOverview .topLeft {
+    display:block;
+    position: absolute;
+    float:left;
+    bottom: 0px;
+    font-family: 'GothamBold',Helvetica,sans-serif;
+    font-size:17px;
+    text-transform: uppercase;
+}
+.selfcheckOverview .topRight {
+    display:block;
+    float:right;
+    background: transparent url(../images/next_points_box_english.png) left top no-repeat;
+    color: #65ed00;
+    height:26px;
+    width:102px;
+    font-size:17px;
+    font-weight:bold;
+    padding-top:5px;
+    padding-left: 5px;
+}
+.selfcheckOverview .bottom {
+    display:block;
+    margin-top:13px;
+    float:left;
+}
+.selfcheckSubtitle{
+    margin-bottom: 13px;
+    color:#333333;
+}
+.SelfCheckOverview .selfcheckSubtitle{
+    float:left;
+    width:auto;
+    margin-bottom: 0;
+    margin-top: 13px;
+}
+.selfcheckBookTitle {
+    font-size:18px;
+    font-weight:normal;
+    text-transform:uppercase;
+    font-family:"GothamMedium";
+    float:left;
+}
+.SelfCheckTitleWrap {
+    float:left;
+    width:100%;
+    margin-bottom:13px;
+}
+table.selfcheckSummary {
+    width:100%;
+}
+table.selfcheckSummary tr {
+    height:20px;
+}
+table.selfcheckSummary tr.odd_row {
+    background-color:#999999;
+}
+table.selfcheckSummary td {
+    padding:3px;
+}
+table.selfcheckSummary td.child {
+    padding-left:25px;
+}
+table.selfcheckSummary td.bar_container {
+    text-align: right;
+}
+SelfcheckNameWrap{
+    float:left;
+}
+.SelfcheckButtonWrap {
+    float:right;
+}
+
+.buttonLink span {
+
+
+    float: left;
+    color: white;
+    height:20px;
+    width:auto;
+}
+.sceneLabel {
+    float: left;
+    margin-right: 5px;
+}
+
+
+.buttonLink {
+    float:left;
+}
+.buttonLink .copy {
+    font-family:'GothamMedium',Helvetica,sans-serif;
+    text-align: center;
+    display: block;
+    color:white;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 4px 1px 0 0;
+    width:35px;
+    height:15px;
+    margin-right:5px;
+    text-transform: uppercase;
+    background: transparent url(../images/selfCheckButton_off.png) left top no-repeat;
+    cursor: pointer;
+}
+.buttonLink .copy:hover {
+    background: transparent url(../images/selfCheckButton_on.png) left top no-repeat;
+}
+.QuickCheckText{
+    margin-top: 13px;
+}
+.QuickCheckButton a, .AdvancedCheckButton a{
+    color: black;
+}
+.QuickCheckButton, .AdvancedCheckButton,.SelfCheckSubmitButton{
+    font-family:'GothamMedium',Helvetica,sans-serif;
+    text-align: center;
+    display: block;
+    color:black;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 4px 1px 0 0;
+    width:102px;
+    height:18px;
+    margin-right:5px;
+    text-transform: uppercase;
+    background: transparent url(../images/selfCheckButton_quick_off.png) left top no-repeat;
+    cursor: pointer;
+    border:0;
+    float: left;
+}
+.SelfCheckSubmitButton{
+    height:22px;
+    padding:4px 1px 3px 0;
+}
+.QuickCheckButton:hover {
+    background: transparent url(../images/selfCheckButton_quick_on.png) left top no-repeat;
+}
+.SelfCheckSubmitButton:hover {
+    background: transparent url(../images/selfCheckButton_quick_on.png) left top no-repeat;
+}
+.selfcheckPrintReport {
+    display:block;
+    margin:13px 0;
+}
+ul.foot_list {
+    float: left;
+}
+ul.foot_list li {
+    display:inline;
+    margin-right:30px;
+
+}
+ul.foot_list li span.correct {
+    background-color:green;
+    border:1px solid white;
+    display:inline-block;
+    height:10px;
+    width:10px;
+}
+ul.foot_list li span.incorrect {
+    background-color:red;
+    border:1px solid white;
+    display:inline-block;
+    height:10px;
+    width:10px;
+}
+ul.foot_list li span.unanswered {
+    background-color:grey;
+    border:1px solid white;
+    display:inline-block;
+    height:10px;
+    width:10px;
+}
+/******************************
+ * SELFCHECK  TEST STYLES
+ ******************************/
+form.selfcheckTest {
+
+}
+.selfcheckTestQuestion {
+    position: relative;
+    margin-bottom: 20px;
+    float:left;
+    width:99%;
+}
+.selfcheckTestQuestion.Sequence{
+    background: transparent url(../images/draganddrop.png) right top no-repeat;
+}
+.RearEnd .selfcheckTestQuestion{
+    padding: 13px;
+    width:95%;
+    background-color:#CECED5;
+}
+form.selfcheckTest .View .selfcheckTestQuestion {
+    padding: 13px;
+    width:95%;
+}
+.Answers .Correct{
+    color:#46aa36;
+}
+.Answers .Incorrect{
+    color:#be000a;
+}
+form.selfcheckTest .selfcheckTestQuestion.Correct {
+    border:2px dashed #46aa36;
+}
+form.selfcheckTest .selfcheckTestQuestion.Incorrect {
+    border:2px dashed #be000a;
+}
+form.selfcheckTest .selfcheckTestQuestion .marker {
+    position: absolute;
+    top: -5px;
+    left:-5px;
+}
+
+.selfcheckTestQuestion .scoring {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    font-size: 10px;
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+    background-color: green;
+    font-family: "GothamBold";
+}
+.OrderNumberCorrect{
+    font-family: "GothamBold";
+    color: green;
+    width:20px;
+    float:left;
+}
+.OrderNumberYours{
+    font-family: "GothamBold";
+    color: #BE000A;
+    width:20px;
+    float:left;
+    font-size:10px;
+}
+.QuestionAdminHead{
+    float:left;
+    color:#0f8bd2;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.QuestionAdminHeadBlock{
+    float:left;
+    margin-right: 15px;
+    border: 0px none transparent;
+    position: relative;
+    float:left;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+.QuestionHead{
+    float:left;
+    width:100%;
+}
+.QuestionHeadWrap{
+    float:left;
+    width:650px;
+}
+.QuestionBody{
+    display:none;
+}
+.Open .QuestionBody{
+    display:block;
+}
+.Editable{
+    padding:0;
+    position:relative;
+}
+.Editable .EditArea{
+    width:250px;
+    height: 60px;
+    background-color: #E6E6E6;
+    position:absolute;
+    top:13px;
+    left:0;
+    border: 1px solid #999;
+    display:none;
+}
+.RearEndQuestionCopy.Editable .EditArea{
+    width:640px;
+    top:-3px;
+    height:384px;
+}
+.QuestionAdminAudio {
+	float:left;
+}
+.QuestionAdminAudio .EditArea{
+    height:70px;
+	text-align:center;
+	top:-3px;
+	width:340px;
+
+}
+.RearEndChoice.Editable .EditArea{
+
+    top:-3px;
+    width:460px;
+    height:350px;
+
+
+}
+.RearEndAddAnswer.Editable .EditArea{
+
+    top:15px;
+
+
+}
+.ClickArea{
+    position:relative;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    top:-3px;
+    left:0;
+    padding:2px 5px 0 5px;
+    float:left;
+}
+.OnEdit .ClickArea{
+    z-index:20;
+}
+.OnEdit .EditArea{
+    z-index:10;
+}
+.RearEndQuestionCopy .ClickArea div{
+
+    font-style: normal;
+
+}
+.RearEndQuestionCopy .OnEdit .ClickArea{
+    display:none;
+}
+.Open .ClickArea{
+    cursor:pointer;
+    color:green;
+
+}
+.Open  .OnEdit .ClickArea{
+    background-color: #E6E6E6;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.Open .Editable.OnEdit .EditArea{
+    display:block;
+	margin-top:17px;
+	padding:15px 5px 5px;
+}
+.FileForm .FieldDiv {
+	float:none;
+	width:auto;
+}
+.FileForm .loading {
+	background:url("/design/SampleTemplate/images/loader-gray.gif") repeat scroll 0 0 transparent;
+	display:inline;
+	float:left;
+	height:16px;
+	width:16px;
+	margin:6px 0 0 6px;
+}
+.selfcheckTestQuestion .QuestionAdminAudio .QuestionCopy  {
+	font-size:13px;
+	font-style:italic;
+}
+.QuestionAdminAudio .ClickArea {
+	padding-top:0;
+}
+.QuestionAdminAudio.OnEdit {
+}
+.QuestionAdminArrow{
+    float:right;
+    width:37px;
+    height: 39px;
+    background: transparent url(../images/big_arrow_down.png) center 13px no-repeat;
+    font-family: "GothamBold";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    line-height: 11px;
+    cursor: pointer;
+}
+.Open .QuestionAdminArrow{
+
+    background: transparent url(../images/big_arrow_up.png) center 13px no-repeat;
+
+}
+.QuestionAdminHeadBlock span div{
+    float: left;
+    margin-right:2px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.QuestionAdminHead div.DivLabel{
+    font-style: normal;
+    font-weight: bold;
+}
+.selfcheckTestQuestion .scoring.Easy {
+
+}
+.selfcheckTestQuestion .scoring.Medium {
+    background-color: blue;
+}
+.selfcheckTestQuestion .scoring.Hard {
+    background-color: black;
+}
+.selfcheckTestQuestion .scoring .DivValue {
+    font-size: 16px;
+}
+.selfcheckTestQuestion .scoring .DivUnits {
+    font-size: 10px;
+}
+form.selfcheckTest .selfcheckTestQuestion .MarkBox {
+    position: absolute;
+    left:-8px;
+    top: -8px;
+    display:block;
+    width:14px;
+    height:14px;
+}
+form.selfcheckTest .selfcheckTestQuestion.Correct .MarkBox {
+    background: #eaeaea url(../images/selfCheckCorrect.png) left top no-repeat;
+}
+form.selfcheckTest .selfcheckTestQuestion.Incorrect .MarkBox {
+    background: #eaeaea url(../images/selfCheckInorrect.png) left top no-repeat;
+}
+form.selfcheckTest .selfcheckTestQuestion h2 {
+    padding-top: 0;
+    margin-top: 0;
+}
+form.selfcheckTest .selfcheckTestQuestion .shortAnswerTextarea {
+
+}
+form.selfcheckTest .selfcheckTestQuestion ul.sentence_choice {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+}
+form.selfcheckTest .selfcheckTestQuestion ul.multi_choice {
+    display:inline;
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+}
+form.selfcheckTest .selfcheckTestQuestion ul.multi_choice li {
+    position: relative;
+}
+form.selfcheckTest .selfcheckTestQuestion ul.multi_choice input.inlineRadio {
+    display:inline;
+}
+form.selfcheckTest .selfcheckTestQuestion ul.sequence {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+}
+form.selfcheckTest .selfcheckTestQuestion .sequence_box {
+    margin:0 10px 0 0;
+}
+form.selfcheckTest .selfcheckTestQuestion .answer_label {
+    line-height:17px;
+    position:relative;
+    top:-1px;
+}
+label.incorrect {
+    color: red;
+}
+label.correct {
+    color: green;
+}
+.selfcheckTestQuestion.Horizontal li{
+    float:left;
+    margin-right:10px;
+}
+.selfcheckTestQuestion li label{
+    margin-left:3px;
+}
+.selfcheckTestQuestion .QuestionCopy{
+    margin-bottom: 13px;
+    font-weight: normal;
+    line-height: 17px;
+    float:left;
+    clear:both;
+    width:95%;
+    font-size:14px;
+}
+.RearEnd .selfcheckTestQuestion .QuestionCopy{
+    margin-bottom: 0px;
+    text-align: left;
+    width:100%;
+}
+
+ul.Answers{
+    width:95%;
+    float:left;
+}
+ul.Answers li {
+    line-height: 17px;
+    font-size:12px;
+    margin:1px;
+    float:left;
+}
+.Vertical ul.Answers li {
+    width:80%;
+}
+div.include_options {
+    padding-right: 36px;
+}
+div.type_options, div.include_options {
+    float: left;
+    padding-bottom: 13px;
+}
+.SelfCheckOverview .caption {
+    margin:5px 0;
+}
+.SelfCheckOverview .type_options .caption, .SelfCheckOverview .include_options .caption {
+    margin:5px 0;
+    font-family: "GothamBold";
+}
+div.selfCheckSubHeader {
+    font-family: "GothamBold";
+    margin:13px 0;
+    text-transform:uppercase;
+}
+ul.checklist li {
+
+}
+ul.checklist {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+}
+.clear {
+    clear: both;
+}
+
+.SelfCheckSubmitButton {
+    float:left;
+}
+.RearEnd .Answers input{
+
+    float:left;
+    margin: 5px 0 0 0 ;
+}
+.RearEnd .Answers .QuestionAdminHeadBlock span div {
+    float:left;
+    font-style:normal;
+    margin-right:2px;
+    text-transform:none;
+}
+.RearEndQuestionCopy.OnEdit .ClickArea div{
+    visibility:hidden;
+}
+.RearEndQuestionCopy.OnEdit .ClickArea{
+    visibility:hidden;
+}
+.RearEndChoice.OnEdit .ClickArea div{
+    display:none;
+}
+
+.RearEndQuestionCopy.OnEdit {
+    float:left;
+    width:100%;
+}
+.RearEndAddAnswer.OnEdit .ClickArea div {
+    visibility:visible !important;
+}
+.SortArrow{
+    float:left;
+    display: block;
+    width: 10px;
+    height: 20px;
+    background: transparent url(../images/sort_arrow.png) left top no-repeat;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.Horizontal .Answers .SortArrow{
+    width: 20px;
+    height: 10px;
+    margin-top:6px;
+    background: transparent url(../images/sort_arrow_horizontal.png) left top no-repeat;
+}
+
+.SelfCheckSceneSelection {
+    float: right;
+    text-transform: none;
+}
+select.SelfCheckSceneSelection{
+    border:2px solid gray;
+    color:grey;
+    font-family:"GothamMedium";
+    font-size:11px;
+    padding:1px;
+}
+select.SelfCheckSceneSelection option{
+    font-family: "GothamMedium";
+    text-indent:13px;
+}
+select.SelfCheckSceneSelection optgroup{
+    font-family: "GothamMedium";
+}
+.QuestionCount{
+    font-weight: bold;
+    font-family: "GothamMedium";
+    font-size:15px;
+}
+.RearEndQuestionCopy{
+    width:100%;
+}
+.State{
+    display:block;
+    width:25px;
+    height:25px;
+    background: transparent url(/design/SampleTemplate/images/icons/delete-24.png) top left no-repeat;
+    position:relative;
+    left:-7px;
+    text-indent: -9999px;
+    overflow: hidden;
+    top:-4px;
+    opacity:0.3;
+}
+.Active  .State{
+    background: transparent url(/design/SampleTemplate/images/icons/delete-24.png) top left no-repeat;
+}
+.Open .State{
+    cursor:pointer; opacity:1;
+}
+.RearEnd .selfcheckTestQuestion{
+    opacity:0.7;
+}
+.RearEnd .selfcheckTestQuestion.Active{
+    opacity:1;
+}
+.TimeInputDiv{
+    font-size: 10px;
+    float:right;
+}
+.TimeInputDiv.HiddenValue {
+	visibility: hidden;
+}
+.TimeInputDiv label{
+    clear: both;
+
+}
+.TimeInput{
+    width:50px;
+    height:12px;
+    font-size: 10px;
+}
+.AddMediaList li{
+    float:left;
+    width:353px;
+}
+.AddMediaList li li{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+}
+.EmptyQuiz{
+    float:left;
+    clear:both;
+    width:100%;
+}
+.AudioPlaceholder {
+	padding-top:5px;
+}
+
+.AddMediaList .DuplicateRow {
+	background:url(/design/SampleTemplate/images/icons/add-16.png);
+	width:16px;
+	height:16px;
+	float:right;
+	display:block;
+	margin:5px 0 0 5px;
+	cursor:pointer;
+}
+.AddMediaList .DuplicateRow.HiddenValue {
+	visibility: hidden;
+}
+.AddMediaList .RemoveRow {
+	background:url(/design/SampleTemplate/images/icons/delete-16.png);
+	width:16px;
+	height:16px;
+	float:left;
+	display:block;
+	margin:0 2px 0 0;
+	cursor:pointer;
+}
+.ChoiceDeactivate {
+	float:left;
+	display:block;
+    width:16px;
+    height:16px;
+    background: transparent url(/design/SampleTemplate/images/icons/delete-16.png) top left no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+	margin: 2px 0 0 5px;
+}
+.ChoiceDeactivate.ChoiceLive {
+    background: transparent url(/design/SampleTemplate/images/icons/delete-16.png) top left no-repeat;
+}

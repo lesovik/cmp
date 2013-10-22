@@ -1,0 +1,46 @@
+.Glossary .container-list span {
+	cursor: pointer;
+	padding:2px 6px;
+}
+.WidgetContent {
+    clear: both;
+}
+.SaveSelections {
+    float:right;
+    font-size: 10px;
+}
+ul.container-list {
+
+}
+.GlossaryTermList {
+    margin: 0 0 13px 0;
+}
+li.GlossaryListTermItem {
+
+}
+li.GlossaryListTermItem input {
+    display: inline !important;
+}
+li.GlossaryListTermItem .GlossaryListTermItemName {
+    display:inline-block !important;
+    width:90% !important;
+}
+.GlossaryListTermItemName {
+    clear: both;
+}
+.container-list span.oddRow, .container-list span.evenRow {
+    display:block !important;
+    width:100%;
+}
+.GlossaryCheckAll {
+    margin:0 13px 0 0;
+    line-height:23px;
+}
+.TabSubHeader {
+    text-transform: uppercase;
+}
+.GlossaryCommandContainer {
+    float:right;
+    font-size:10px;
+    position:relative;
+}

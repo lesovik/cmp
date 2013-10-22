@@ -1,0 +1,429 @@
+
+/*WIDGET STYLING*/
+.Playscript {
+        padding: 13px;
+	position:relative;
+
+}
+.Playscript {
+	font-weight: normal; font-style: normal; line-height:normal;
+}
+.Playscript p {
+	margin:0;
+	padding:0;
+}
+.Playscript div {
+	display:inline;
+}
+.Playscript .textContainer {
+    line-height: 20px;
+}
+.Playscript span.selectedText {
+	background:#FFDFDF;
+	position:relative;
+}
+#AddPlayscriptTooltip {
+	display:block;
+	width:46px;
+	height:23px;
+	background-image: url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/add_tooltip.png");
+	position:absolute;
+	z-index:50000;
+	top:-19px;
+	left:0;
+	cursor:pointer;
+}
+.Playscript .line span.selectedText {
+	background:transparent;
+}
+.Playscript span.line {
+	display:block;
+	float:left;
+	width:25px;
+	font-size:11px;
+	font-weight:bold;
+}
+.Playscript span.stage {
+	padding-left:15px;
+	font-style: italic;
+}
+.Playscript span.start_char {
+	display:block;
+	float:left;
+	min-width:110px;
+}
+.Playscript br {
+	clear:left;
+}
+.Playscript span.inner_bracket {
+	font-style:italic;
+}
+.Playscript p {
+	width:444px;
+}
+.Playscript p.long_p {
+	width:100%;
+}
+.Playscript .exit {
+	float:right;
+	padding-left:13px;
+        font-style:italic;
+}
+.Playscript span.continue {
+	padding-left:22px;
+}
+
+/* tooltip */
+#tooltip .number1_icon,#tooltip .number2_icon,#tooltip .number3_icon {
+	background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+	/*background-position: 51px 0;*/
+	width:17px;
+	height:17px;
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+#tooltip .number3_icon {
+    background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/litdevices.png");
+}
+	#tooltip .number2_icon
+	{
+		background-position: 68px 0;
+	}
+	#tooltip .number1_icon
+	{
+		background-position: 51px 0;
+	}
+
+/* color */
+
+
+.playscriptGlossaryBtn a.number1 {
+        background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+        background-position: 51px 0;
+	/*background-color: #129032;*/
+	color:#FFF;
+}
+.playscriptGlossaryBtn a.number1.toggled {
+         background-position: 51px 17px;
+}
+.playscriptGlossaryBtn a.number2 {
+        background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+        background-position: 68px 0;
+	/*background-color:#880053;*/
+	color:#FFF;
+}
+.playscriptGlossaryBtn a.number2.toggled {
+        background-position: 68px 17px;
+}
+.playscriptGlossaryBtn a.number3 {
+        background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/litdevices.png");
+        background-position: 0 0;
+	/*background-color: #000786;*/
+	color:#FFF;
+}
+.playscriptGlossaryBtn a.number3.toggled {
+        background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/litdevices_off.png");
+}
+.playscriptGlossaryBtn a.number4 {
+        background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+        background-position: 34px 0;
+	/*background-color:#DFA700;*/
+	color:#FFF;
+}
+.playscriptGlossaryBtn a.number4.toggled {
+        background-position: 34px 17px;
+}
+.playscriptGlossaryBtn a.number5 {
+        background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+        background-position: 17px 0;
+	/*background-color:#940000;*/
+	color:#FFF;
+}
+.playscriptGlossaryBtn a.number5.toggled {
+        background-position: 17px 17px;
+}
+.Playscript span.number1, .Playscript span.simple_number1_end {
+    color: #346119; /* green */
+    cursor: pointer;
+}
+.Playscript span.number2, .Playscript span.simple_number2_end {
+    color: #940000; /* red */
+    cursor: pointer;
+}
+.Playscript span.number3, .Playscript span.simple_number3_end {
+    color: #000786;
+    /*color: #DFA700; blue */
+    cursor: pointer;
+}
+.Playscript span.number4, .Playscript span.simple_number4_end {
+    color: #129032; /* yellow */
+    cursor: pointer;
+}
+.Playscript span.number5, .Playscript span.simple_number5_end {
+    color: #880053; /* purple */
+    cursor: pointer;
+}
+.Playscript span.ecenter {
+	display:block;
+	float:left;
+	text-align:center;
+	width:343px;
+}
+.Playscript span.char {
+    font-weight: bold;
+}
+.Playscript span.normal {
+    margin-left: 13px;
+}
+.Playscript span.normal span.normal {
+    margin-left: 0px !important;
+}
+.Playscript span.equote {
+	padding-left:12px;
+}
+
+.Playscript span.tags {
+		background:#FFDFDF;
+}
+
+.Playscript .number3_over {
+    background-color: #ABC6FF;
+}
+.Playscript .number1_over {
+    background-color: #B6FF98;
+}
+
+/*MORE*/
+.number1_over {
+	background:#cdf5b6;
+        cursor: pointer;
+}
+.number2_over {
+	background:#fcd9db;
+        cursor: pointer;
+}
+.num_over {
+	padding-left:3px;
+        cursor: pointer;
+}
+.simple_over {
+	text-decoration: underline;
+	color:#0f8bd2;
+        cursor: pointer;
+}
+.num_over {
+	background:url("/design/SampleTemplate/widgets/Oxford/Shared/images/litdevices.png") no-repeat scroll 0 0 transparent;
+	height:15px;
+	line-height:15px;
+	margin-left:4px;
+	padding-left:0;
+	padding-right:0;
+	vertical-align:middle;
+	padding:1px 0;
+}
+.Playscript {
+	line-height: 17px;
+}
+.Playscript div.TopHeader {
+	display:block;
+	color:black;
+	font-family:"GothamBold";
+	margin-bottom:13px;
+	text-transform:uppercase;
+	font-size:20px;
+}
+/* slides editor */
+.Pdf_Toolbar{
+	height:34px;
+}
+.Pdf_Toolbar ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.Pdf_Toolbar li {
+	float:left;
+	margin:0;
+	padding:0;
+}
+.Pdf_Editor .Basic_Number {
+	display:block;
+	background:url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+	width:17px;
+	height:17px;
+	z-index:2;
+}
+.Pdf_Editor .Basic_Number1 {
+	background-position: 0 0;
+}
+.Pdf_Editor .Basic_Number2 {
+	background-position: -17px 0;
+}
+.Pdf_Editor .Basic_Number3 {
+	background-position: -34px 0;
+}
+.Pdf_Editor .Pdf_Page {
+	display:block;
+	width:474px;
+	height:695px;
+}
+.Pdf_Pages ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.Pdf_Pages li {
+	display:block;
+	margin:0;
+	padding:0;
+	float:left;
+	padding-right:5px;
+	font-size: 14px;
+	font-weight:bold;
+}
+.Pdf_Pages li span {
+	color:#00F;
+	cursor:pointer;
+	text-decoration: underline;
+}
+.Inner_Number {
+	position:absolute;
+}
+.Pdf_Page {
+	position:relative;
+}
+
+span.turned_off {
+    color:#666666 !important;
+    text-decoration: none !important;
+}
+span.num_over_number3_end.turned_off {
+	visibility: hidden;
+}
+
+
+.playscriptHeadLeft {
+    float: left;
+    margin-top:3px;
+}
+.playscriptGlossaryBtn {
+}
+.playscriptGlossaryBtn a {
+    height: 17px;
+    width: 17px;
+    overflow: hidden;
+    position:relative;
+    display:inline-block;
+}
+.playscriptGlossaryBtn a img {
+    position:absolute;
+    background-image: url(../widgets/Oxford/Shared/images/sprites.png);
+    border: 0;
+}
+.playscriptGlossaryBtn a img#btn_1 {
+    top:0px;
+    left:0px;
+}
+.playscriptGlossaryBtn a img#btn_2 {
+    top:0px;
+    left:-17px;
+}
+.playscriptGlossaryBtn a img#btn_3 {
+    top:0px;
+    left:-34px;
+}
+.playscriptGlossaryBtn a img#btn_4 {
+    top:0px;
+    left:-51px;
+}
+.playscriptGlossaryBtn a img#btn_5 {
+    top:0px;
+    left:-68px;
+}
+
+.playscriptHeadRight {
+    float: right;
+    margin:2px 0 0 0;
+}
+.playscriptNavBtn {
+    color:#333333;
+    font-size:10px;
+    text-transform:uppercase;
+}
+.playscriptSearchForm {
+    display:inline;
+}
+.playscriptSearchForm input.field{
+    border:2px solid #333333;
+}
+.PlayscriptSelection optgroup option {
+	padding-left:15px;
+}
+.commandBtnContainer {
+    float: right;
+	height:29px;
+	line-height:29px;
+}
+.bookmarkBtn{
+    background: url(/design/SampleTemplate/widgets/Oxford/Shared/images/add_journal_btn.png) left top no-repeat;
+    display:inline-block;
+    text-indent: -9999px;
+    width: 18px;
+    height: 12px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+.Bookmark.bookmarkBtn{
+    margin-left: 0;
+    margin-top: 5px;
+}
+.Playscript div.PlayscriptClear {
+	clear:both;
+	display:block;
+}
+.Playscript .AudioPlaceholder,.Playscript .AudioPlayer {
+	display:block;
+	height:21px;
+}
+.Playscript .AudioPlaceholder .intro {
+	background:url("/design/SampleTemplate/images/glossary-images/alphabet-left-cap.png") no-repeat scroll left top transparent;
+        cursor:pointer;
+        height:16px;
+        padding:0 0 0 8px;
+        text-transform:uppercase;
+}
+.Playscript .AudioPlaceholder .intro a {
+    background:url("/design/SampleTemplate/images/glossary-images/alphabet-bg-fill.jpg") repeat-x scroll left top transparent;
+    color:black;
+    display:block;
+    float:left;
+    font-size:10px;
+    height:16px;
+    padding:0 2px;
+    text-decoration:none;
+}
+.Playscript .AudioPlaceholder .intro span {
+    background:url("/design/SampleTemplate/images/glossary-images/alphabet-right-cap.png") no-repeat scroll 0 0 transparent;
+    display:block;
+    float:left;
+    height:16px;
+    width:8px;
+}
+/*
+
+*/
+.Playscript .AudioPlaceholder div {
+	display:block;
+        float:left;
+}
+.Playscript .AudioPlayer {
+    float: right !important;
+}
+.FullImage {
+	float:left;
+	padding-right:7px;
+	padding-bottom:2px;
+	width:153px;
+}
+

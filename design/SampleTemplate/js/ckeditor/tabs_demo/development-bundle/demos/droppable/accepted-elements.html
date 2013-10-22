@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>jQuery UI Droppable - Accept Demo</title>
+	<link type="text/css" href="../../themes/base/jquery.ui.all.css" rel="stylesheet" />
+	<script type="text/javascript" src="../../jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.mouse.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.draggable.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.droppable.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.sortable.js"></script>
+	<link type="text/css" href="../demos.css" rel="stylesheet" />
+	<style type="text/css">
+	#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+	#draggable, #draggable-nonvalid { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+	</style>
+	<script type="text/javascript">
+		function recycleImage($item) {
+				$item.fadeOut(function() {
+					$item.find('a.ui-icon-refresh').remove();
+					$item.css('width','96px').append(trash_icon).find('img').css('height','72px').end().appendTo($gallery).fadeIn();
+				});
+			}
+
+
+	$(function() {
+
+	//	$(".content_holder .tabs ul li").draggable({ revert: 'invalid'});
+		$(".content_holder .tabs ul").sortable({connectWith:'.content_holder .tabs ul'});
+
+		$(".droppable").droppable({
+			accept: '.content_holder .tabs ul li',
+			activeClass: 'ui-state-hover',
+			hoverClass: 'ui-state-active',
+			drop: function(event, ui) {
+				//$(this).addClass('ui-state-highlight').find('p').html('Dropped!');
+				recycleImage(ui.draggable);
+			},
+			sort: function(event, ui) {
+				
+			}
+		});
+
+	});
+	//http://folder.localhost/cmp_editor_test/tabs_demo/development-bundle/demos/droppable/accepted-elements.html
+	</script>
+	<style>
+		.content_holder {
+			float:left;
+		}
+		.spacer {
+			clear:left;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="content_holder">
+			<div class="tabs">
+				<ul>
+					<li>Tab 1</li>
+					<li>Tab 2</li>
+					<li>Tab 3</li>
+					<li>Tab 4</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content_holder">
+			<div class="tabs">
+				<ul>
+					<li>Tab 1</li>
+					<li>Tab 2</li>
+					<li>Tab 3</li>
+					<li>Tab 4</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="spacer"></div>
+<div class="demo">
+	
+<div id="draggable-nonvalid" class="ui-widget-content">
+	<p>I'm draggable but can't be dropped</p>
+</div>
+
+<div id="draggable" class="ui-widget-content">
+	<p>Drag me to my target</p>
+</div>
+
+<div class="droppable ui-widget-header">
+	<p>accept: '#draggable'</p>
+</div>
+<div class="droppable ui-widget-header">
+	<p>accept: '#draggable'</p>
+</div>
+
+</div><!-- End demo -->
+
+<div class="demo-description">
+
+<p>Specify using the <code>accept</code> option which element (or group of elements) is accepted by the target droppable.</p>
+
+</div><!-- End demo-description -->
+</body>
+</html>

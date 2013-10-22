@@ -1,0 +1,12 @@
+CoreZoneWidget:
+  tableName: core_zone_widget
+  columns:
+    zone_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    widget_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+  

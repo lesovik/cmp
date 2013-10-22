@@ -1,0 +1,489 @@
+.Multimedia {
+    padding: 13px;
+}
+.Multimedia div.TopHeader {
+    color:black;
+    display:block;
+    font-family:"GothamBold";
+    font-size:20px;
+    text-transform:uppercase;
+    font-size:20px;
+}
+.Multimedia .SimpleGalleryContainer,.Multimedia .TileContainer {
+	padding:10px;
+	margin:10px;
+	background:#FFF;
+}
+.Multimedia .large_preview {
+	padding:10px;
+
+}
+.Multimedia .SimpleGalleryContainer .large_preview {
+	text-align:center;
+	cursor:pointer;
+}
+.Multimedia .OuterContainer .SimpleGalleryContainer .large_preview {
+	cursor:pointer;
+}
+
+.Multimedia .SimpleGalleryContainer li {
+	width:16px;
+	height:16px;
+	display:block;
+	margin-right:5px;
+	margin-top:5px;
+	float:left;
+	background:#b3b3b3;
+	cursor:pointer;
+}
+.Multimedia .TileContainer li .small_preview {
+	cursor:pointer;
+	padding-bottom:5px;
+}
+.Multimedia .TileContainer li .bookmarkBtn {
+	margin-left:0;
+}
+.Multimedia .SimpleGalleryContainer li span {
+	display:none;
+}
+.Multimedia .SimpleGalleryContainer li.current {
+	background: #0f8bd2;
+}
+.Multimedia .clear {
+	clear:both;
+}
+
+.Multimedia .view_type {
+	text-align:right;
+}
+.Multimedia .view_type li {
+	display:inline;
+	margin-right:6px;
+	border-right:1px solid #666;
+}
+	.Multimedia .view_type li.last {
+		border-right:0;
+	}
+.Multimedia .view_type li span {
+	color:#0F8BD2;
+	cursor:pointer;
+        font-family: "GothamBold";
+        font-size: 10px;
+        text-transform: uppercase;
+}
+.Multimedia .view_type li.current span {
+	text-decoration:underline;
+}
+.Multimedia .view_type li span.view,.Multimedia .view_type li.current span.view  {
+	color:#666;
+	text-decoration:none;
+	cursor:default;
+        font-family: "GothamBold";
+        font-size: 10px
+}
+.Multimedia .ContentPlaceholder .Header {
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+	padding-top:10px;
+}
+.Multimedia .ContentPlaceholder .Content {
+	
+	font-size:12px;
+}
+.Multimedia .OuterContainer .LeftColumn,.Multimedia .OuterContainer .RightColumn {
+	width:50%;
+	float:left;
+}
+.Multimedia .Folder {
+	padding:5px;
+        cursor: pointer;
+}
+.Multimedia .Folder.Other {
+	background:#ceced5;
+}
+.Multimedia .Folder .header {
+    color:#000000;
+    display:block;
+    font-family:"GothamBold";
+    font-size:16px;
+    margin:0 0 7px !important;
+}
+.Multimedia .Folder .items .VideoIcon{
+    background: transparent url('/design/SampleTemplate/images/icons/video.png') left top no-repeat;
+    display:block;
+    float:right;
+    height:21px;
+    margin-left:13px;
+    width: 19px;
+}
+.Multimedia .Folder .items .AudioIcon{
+    background: transparent url('/design/SampleTemplate/images/icons/audio.png') left top no-repeat;
+    display:block;
+    float:right;
+    height:21px;
+    width:21px;
+    margin-left:13px;
+}
+.Multimedia .Folder .items .PhotoIcon{
+    background: transparent url('/design/SampleTemplate/images/icons/photo.png') left top no-repeat;
+    display:block;
+    float:right;
+    height:21px;
+    margin-left:13px;
+    width:26px;
+}
+.Multimedia .Folder .items {
+	float:right;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-family: "GothamBold";
+}
+.Multimedia .TileContainer li {
+	float:left;
+	width:170px;
+	padding:5px;
+	height:220px;
+}
+.Multimedia .TileContainer li .title {
+	font-weight:bold;
+}
+.Multimedia .ListContainer li {
+	display:block;
+	padding:5px;
+	background:#FFF;
+	margin:5px;
+	float: left;
+	clear:left;
+	width: 97%;
+}
+.Multimedia .ListContainer li .small_preview {
+    float:left;
+    width:115px;
+    cursor:pointer;
+    margin-right:7px;
+}
+.Multimedia .ListContainer ul li.list_Image .DetailContainer {
+    /*float:left;*/
+    margin-left:7px;
+}
+.Multimedia .ListContainer ul li.list_Image .DetailContainer .description{
+    display:block;
+    padding:5px;
+}
+
+
+.Multimedia .ListContainer li .bookmarkBtn {
+    margin-left:0;
+}
+
+.Multimedia .ListContainer li .CreditLine {
+    clear:none;
+    font-size:10px;
+    padding-top:13px;
+    text-align:justify;
+}
+.Multimedia .ListContainer li .title {
+	font-weight:bold;
+	color:#000;
+}
+
+.Multimedia .ListContainer li.list_Video .small_preview {
+	width:200px;
+	display:block;
+	float:left;
+	font-weight:bold;
+	padding-right:5px;
+}
+.Multimedia .ListContainer li.list_Video .desc_description {
+	display:block;
+}
+.Multimedia h2 {
+	padding:5px;
+	color:#000;
+	font-size:17px;
+}
+
+
+.Multimedia .MultimediaContainer .description {
+    padding:5px;
+}
+
+.multimediaNavBtn {
+    color:#333333;
+    font-size:10px;
+    text-transform:uppercase;
+}
+
+
+/*   - ADMIN AREA -  */
+/* - MEDIA FOLDERS - */
+
+.Crude ul, .Crude {
+    clear:both;
+    display:block !important;
+}
+
+.child {
+    margin-left:13px;
+}
+
+.LibraryFolderWrapper ul {
+
+}
+
+.LibraryFolderWrapper ul ul.level0 {
+
+}
+.LibraryFolderWrapper ul ul.level0 li.folder_row.even_row {
+    background-color: #CECED5;
+}
+.LibraryFolderWrapper ul ul.level0 li.folder_row {
+    display:block;
+    float:left;
+    padding:5px;
+    width:98%;
+}
+.LibraryFolderWrapper li .CategoryNameWrap, .LibraryFolderWrapper li.Open ul li .CategoryNameWrap,
+.LibraryFolderWrapper li.Open ul li.Open ul li .CategoryNameWrap {
+    background:url("/design/SampleTemplate/images/icons/arrow_right.png") no-repeat scroll -5px -2px;
+    float:left;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    text-transform:uppercase;
+}
+.LibraryFolderWrapper .Open .CategoryNameWrap {
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll -5px -2px;
+}
+.LibraryFolderWrapper li.Open .CategoryNameWrap, .LibraryFolderWrapper li.Open ul li.Open .CategoryNameWrap,
+.LibraryFolderWrapper li.Open ul li.Open ul li.Open .CategoryNameWrap{
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll -5px -2px;
+}
+.LibraryFolderWrapper .CategoryNameWrap .CategoryName {
+    float:left;
+    cursor: pointer;
+    padding-left: 15px;
+}
+ul.level0 li.folder_row ul {
+    clear:both;
+}
+li.ItemRow {
+    clear:both;
+    display:block;
+    float:left;
+    width:95%;
+}
+li.ItemRow.even_row {
+    background-color: white;
+}
+li.ItemRow.odd_row {
+    background-color:#dEdEf5;
+}
+li.ItemRow .ItemNameWrap{
+    display:block;
+    padding: 5px;
+}
+li.ItemRow .ItemNameWrap .ItemName{
+    display:block;
+}
+
+.LibraryFoldersList li ul{
+    display:none;
+}
+.LibraryFoldersList li.Open ul{
+    display:block;
+}
+.LibraryFoldersList li.Open ul li ul{
+    display:none;
+}
+.LibraryFoldersList li.Open ul li.Open ul{
+    display:block;
+}
+.LibraryFoldersList li.Open ul li.Open ul li ul{
+    display:none;
+}
+.LibraryFoldersList li.Open ul li.Open ul li.Open ul{
+    display:block;
+}
+
+/* - MEDIA LIBRARY - */
+
+ ul.MediaModuleWrapper {
+
+}
+
+
+ ul.MediaModuleWrapper li.even_row {
+    background-color: #CECED5;
+}
+ ul.MediaModuleWrapper li.MediaItem {
+    display:block;
+    float:left;
+    padding:5px;
+    width:98%;
+}
+ ul.MediaModuleWrapper li.MediaItem .CategoryNameWrap {
+    background-image:url("/design/SampleTemplate/images/icons/arrow_right.png");
+    background-position: -5px -2px;
+    background-repeat: no-repeat;
+    float:left;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    text-transform:uppercase;
+    width:100%;
+}
+ ul.MediaModuleWrapper li.MediaItem.Open .CategoryNameWrap{
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll -5px -2px;
+}
+ ul.MediaModuleWrapper .CategoryNameWrap .CategoryName {
+    float:left;
+    cursor: pointer;
+    padding-left: 15px;
+}
+.ItemWrapper {
+    clear: both;
+}
+.AddMoreMedia {
+    clear:both;
+    display:block;
+    float:left;
+    margin:13px 0;
+}
+.DeleteRelMediaItem {
+    float:right;
+}
+li.MediaItem .ItemWrapper .CategoryDescription {
+    clear:both;
+    float:left;
+    margin-bottom:13px;
+}
+ul.ItemsContainer {
+    clear:both;
+    display:block;
+    float:left;
+    width:100%;
+}
+li.ItemRow {
+    clear:both;
+    display:block;
+    float:left;
+    width:95%;
+}
+li.ItemRow.even_row {
+    background-color: #eeeeee !important;
+}
+li.ItemRow.odd_row {
+    background-color:#dEdEf5;
+}
+li.ItemRow:hover {
+    background-color: whitesmoke !important;
+}
+li.ItemRow .ItemNameWrap{
+    clear:both;
+    display:block;
+    float:left;
+    padding:5px;
+    width:97%;
+}
+li.ItemRow .ItemNameWrap .ItemName{
+    display:block;
+    float:left;
+}
+/* */
+ ul.MediaModuleWrapper li .ItemWrapper{
+    display:none;
+}
+ ul.MediaModuleWrapper li.Open .ItemWrapper{
+    display:block;
+}
+
+/** - ADD MEDIA POPUP - **/
+ul.AddMediaList {
+    margin: 13px 0;
+}
+
+ul.AddMediaList li.folder_row {
+
+}
+ul.AddMediaList li.folder_row ul {
+    margin-left:16px;
+}
+
+ul.AddMediaList li.MediaFolder .ItemNameWrap,
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder .ItemNameWrap,
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder ul li.MediaSubSubfolder .ItemNameWrap {
+    background-image:url("/design/SampleTemplate/images/icons/arrow_right.png");
+    background-position: -5px -2px;
+    background-repeat: no-repeat;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    text-transform:uppercase;
+    margin-bottom: 6px;
+    padding:3px;
+    color: black;
+}
+ul.AddMediaList li.MediaFolder.Open .ItemNameWrap,
+ul.AddMediaList li.MediaFolder.Open ul li.MediaSubfolder.Open .ItemNameWrap,
+ul.AddMediaList li.MediaFolder.Open ul li.MediaSubfolder.Open ul li.MediaSubSubfolder.Open .ItemNameWrap{
+    background-image:url("/design/SampleTemplate/images/icons/arrow_down.png");
+    background-position: -5px -2px;
+    background-repeat: no-repeat;
+}
+ul.AddMediaList li.MediaFolder .ItemNameWrap {
+    background-color: #999999;
+    width:97%;
+    padding-left:15px;
+}
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder .ItemNameWrap {
+    background-color: #B3B3B3;
+    width:97%;
+    padding-left:15px;
+}
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder ul li.MediaSubSubfolder .ItemNameWrap {
+    background-color: #E5E3E3;
+    width:97%;
+    padding-left:15px;
+}
+ul.AddMediaList li .ItemNameWrap input.Special_Check_Under {
+    
+}
+ul.AddMediaList li .ItemNameWrap .ItemName {
+    cursor: pointer;
+    padding-left: 6px;
+}
+
+ul.AddMediaList li ul{
+    display:none;
+}
+ul.AddMediaList li.Open ul{
+    display:block;
+}
+ul.AddMediaList li.Open ul li ul{
+    display:none;
+}
+ul.AddMediaList li.Open ul li.Open ul{
+    display:block;
+}
+ul.AddMediaList li.Open ul li.Open ul li ul{
+    display:none;
+}
+ul.AddMediaList li.Open ul li.Open ul li.Open ul{
+    display:block;
+}
+
+.ContentPlaceholder .Header {
+    margin-bottom:0px !important;
+}
+.ContentPlaceholder .Credits {
+    color:#666666;
+    font-size:10px;
+    padding-top:13px;
+}
+
+.CreditLine {
+    clear:both;
+    display: block;
+}

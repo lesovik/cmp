@@ -1,0 +1,219 @@
+
+
+#tooltip  {
+	background:url("/design/SampleTemplate/widgets/Oxford/Shared/images/tooltip_bg.png") repeat-x scroll 0 -77px transparent;
+	border:0 none;
+	display:block;
+	min-height:83px;
+	opacity:1;
+	padding:0;
+	position:absolute;
+	width:300px;
+	z-index:3000;
+	color:#FFF;
+	line-height:17px;
+	background-color:#121212;
+}
+	#tooltip .SmallImage {
+		float:left;
+		width:64px;
+		padding:0 9px 2px 2px;
+	}
+#tooltip div.body {
+	padding:10px;
+}
+#tooltip.loading img {
+	vertical-align:middle;
+}
+#tooltip.off {
+	visibility: hidden;
+}
+
+.Playscript {
+        padding: 13px;
+	position:relative;
+
+}
+.Playscript {
+	font-weight: normal; font-style: normal; line-height:normal;
+}
+.Playscript p {
+	margin:0;
+	padding:0;
+}
+.Playscript div {
+	display:inline;
+}
+.Playscript span {
+}
+.Playscript span.line {
+	display:block;
+	float:left;
+	width:25px;
+	font-size:11px;
+	font-weight:bold;
+}
+.Playscript span.stage {
+	padding-left:15px;
+	font-style: italic;
+}
+.Playscript span.start_char {
+	display:block;
+	float:left;
+	min-width:60px;
+}
+.Playscript br {
+	clear:left;
+}
+.Playscript span.inner_bracket {
+	font-style:italic;
+}
+.Playscript p {
+	width:444px;
+}
+.Playscript p.long_p {
+	width:100%;
+}
+.Playscript .exit {
+	float:right;
+	padding-left:13px;
+}
+.Playscript span.continue {
+	padding-left:22px;
+}
+
+/* tooltip */
+#tooltip .number1_icon,#tooltip .number2_icon,#tooltip .number3_icon {
+	background-image: url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png");
+	background-position: 51px 0;
+	width:17px;
+	height:17px;
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+	#tooltip .number2_icon
+	{
+		background-position: 68px 0;
+	}
+	#tooltip .number3_icon
+	{
+		background-position: 0 0;
+	}
+
+.Playscript span.number1, .Playscript span.simple_number1_end {
+    color: #346119; /* green */
+    cursor: pointer;
+}
+.Playscript span.number2, .Playscript span.simple_number2_end {
+    color: #940000; /* red */
+    cursor: pointer;
+}
+.Playscript span.number3, .Playscript span.simple_number3_end {
+    color: #000786;
+    /*color: #DFA700; blue */
+    cursor: pointer;
+}
+.Playscript span.number4, .Playscript span.simple_number4_end {
+    color: #129032; /* yellow */
+    cursor: pointer;
+}
+.Playscript span.number5, .Playscript span.simple_number5_end {
+    color: #880053; /* purple */
+    cursor: pointer;
+}
+.Playscript span.ecenter {
+	display:block;
+	float:left;
+	text-align:center;
+	width:343px;
+}
+.Playscript span.equote {
+	padding-left:12px;
+}
+
+.Playscript span.tags {
+		background:#FFDFDF;
+}
+
+.Playscript .number3_over {
+    background-color: #ABC6FF;
+}
+.Playscript .number1_over {
+    background-color: #B6FF98;
+}
+
+/*MORE*/
+.number1_over {
+	background:#cdf5b6;
+        cursor: pointer;
+}
+.number2_over {
+	background:#fcd9db;
+        cursor: pointer;
+}
+.num_over {
+	padding-left:3px;
+        cursor: pointer;
+}
+.simple_over {
+	text-decoration: underline;
+	color:#0f8bd2;
+        cursor: pointer;
+}
+.num_over {
+	background:url("/design/SampleTemplate/widgets/Oxford/Shared/images/sprites.png") no-repeat scroll 0 0 transparent;
+	height:15px;
+	line-height:15px;
+	margin-left:4px;
+	padding-left:0;
+	padding-right:0;
+	vertical-align:middle;
+	padding:1px 0;
+}
+.Playscript {
+	line-height: 17px;
+}
+.Playscript div.TopHeader {
+	display:block;
+	color:black;
+	font-family:"GothamBold";
+	margin-bottom:13px;
+	text-transform:uppercase;
+	font-size:20px;
+}
+
+span.turned_off {
+    color:#666666 !important;
+    text-decoration: none !important;
+}
+span.num_over_number3_end.turned_off {
+	visibility: hidden;
+}
+
+
+.playscriptHeadLeft {
+    float: left;
+    margin-top:3px;
+}
+.playscriptHeadRight {
+    float: right;
+}
+.playscriptNavBtn {
+    color:#333333;
+    font-size:10px;
+    text-transform:uppercase;
+}
+.playscriptSearchForm {
+    display:inline;
+}
+.playscriptSearchForm input.field{
+    border:2px solid #333333;
+}
+.PlayscriptSelection optgroup option {
+	padding-left:15px;
+}
+.Playscript div.PlayscriptClear {
+	clear:both;
+	display:block;
+}

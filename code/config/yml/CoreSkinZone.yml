@@ -1,0 +1,11 @@
+CoreSkinZone:
+  tableName: core_skin_zone
+  columns:
+    skin_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    zone_id:
+      type: integer(4)
+      primary: true
+      notnull: true

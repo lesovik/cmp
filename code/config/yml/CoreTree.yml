@@ -1,0 +1,9 @@
+CoreTree:
+  tableName: core_tree
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    name:
+      type: clob(255)

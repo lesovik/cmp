@@ -1,0 +1,27 @@
+CoreLabel:
+  tableName: core_label
+  columns:
+    label:
+      type: string(255)
+      primary: true
+      notnull: true
+    language_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    group_id:
+      type: integer(4)
+      notnull: true
+    text:
+      type: clob(16777215)
+  relations:
+    Language:
+      class: CoreLanguage
+      local: language_id
+      foreign: id
+      onDelete: cascade
+    Group:
+      class: CoreGroup
+      local: group_id
+      foreign: id
+      onDelete: cascade

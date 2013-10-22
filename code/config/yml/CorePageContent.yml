@@ -1,0 +1,39 @@
+CorePageContent:
+  tableName: core_page_content
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(45)
+    page_id:
+      type: integer(4)
+    content:
+      type: clob
+    trace_id:
+      type: integer(4)
+      unique: true
+      notnull: true
+  relations:
+    Page:
+      class: CorePage
+      local: page_id
+      foreign: id
+      onDelete: cascade
+    Trace:
+      class: CoreTrace
+      local: trace_id
+      foreign: id
+      onDelete: cascade
+    Zones:
+      class: CoreZone
+      refClass: CorePageContentZone
+      local: page_content_id
+      remote: zone_id
+      foreign: id
+      type: many
+  indexes:
+    core_Page_id1:
+      fields: [page_id]

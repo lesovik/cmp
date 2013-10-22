@@ -1,0 +1,27 @@
+CoreCrops:
+  tableName: core_crops
+  columns:
+    id:
+      type: integer(11)
+      primary: true
+      notnull: true
+      autoincrement: true
+    type:
+      type: string(45)
+    file_id:
+      type: integer(11)
+      notnull: true
+    file_id:
+      type: integer(11)
+    width:
+      type: integer(11)
+    height:
+      type: integer(11)
+    crop_width:
+      type: integer(11)
+    crop_height:
+      type: integer(11)
+    crop_x:
+      type: integer(11)
+    crop_y:
+      type: integer(11)

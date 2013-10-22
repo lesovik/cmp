@@ -1,0 +1,172 @@
+.ListHeader{
+    font-family: 'WoodenNickelBlackRegular',Arial;
+    text-transform: capitalize;
+}
+.ListTable{
+    width: 100%;
+    border-collapse: collapse;
+    border:1px solid #939393;
+    float:left;
+}
+.ListTable .ListTh{
+    border-bottom:1px solid #939393;
+    background-color: #F5F5F5;
+}
+.ListTable .ListTh th{
+    border-right: 1px solid #939393;
+    padding:6px 0 8px 0;
+    font-size: 10px;
+}
+.ListTable .ListTh th.ListThUp{
+    background: transparent url(../images/icons/s_asc.png) center top no-repeat;
+}
+.ListTable .ListTh th.ListThDown{
+    background: transparent url(../images/icons/s_desc.png) center bottom no-repeat;
+}
+.ListTable .ListTr td{
+    border-right: 1px solid #939393;
+    border-bottom: 1px solid #939393;
+    padding:3px;
+}
+.ListTable .ListTr.Odd{
+    background-color: #FcFcFc;
+}
+.ListTable .ListTr.Even{
+    background-color: #FFF;
+}
+.ListTd.Timestamp{
+    width:120px;
+    text-align: center;
+}
+.ListTdId{
+    width:30px;
+}
+.OptionsTd{
+    width:120px;
+}
+.CreateDiv{
+    float: right;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.Crude a{
+    color:#008000;
+    font-weight: normal !important;
+    font-family: Helvetica;
+    font-size: 8px;
+    display:block;
+    background: transparent;
+    height:6px;
+    padding-top:16px;
+}
+.Crude .readLi a{
+    background: transparent url(../images/icons/zoom.gif)top center no-repeat;
+}
+.Crude .updateLi a,.PlayscriptSelfcheck .Crude .readLi a,.DiscoveryGuideNameWrap .Crude .readLi a{
+    background: transparent url(../images/icons/edit.gif) top center no-repeat;
+}
+.Crude .add_subfolderLi a{
+    background: transparent url(../images/icons/add_folder.png) top center no-repeat;
+}
+.Crude .add_itemLi a{
+    background: transparent url(../images/icons/add_item.png) top center no-repeat;
+}
+.PsTree .Crude .readLi a{
+
+    background: transparent url(../images/icons/zoom.gif) top center no-repeat;
+}
+.Crude .deleteLi a{
+    background: transparent url(../images/icons/ico_delete.gif) top center no-repeat;
+}
+
+.Crude {
+    float:right;
+    font-size: 9px;
+    text-transform: uppercase;
+    padding: 5px;
+    clear:both;
+    
+
+}
+
+.Crude ul li{
+    float: left;
+    margin-left: 10px;
+    position:relative;
+}
+.Crude ul li.readLi{
+    margin-left: 0px;
+}
+#ListTable_ox_book_module_quizzes .Crude ul li {
+    margin-left: 0;
+}
+
+ ul.ListUl{
+     float:left;
+     clear:both;
+     width:99%;
+     
+}
+ ul.ListUl li{
+     float:left;
+     clear:both;
+     width:99%;
+     padding:5px;
+     font-family: "GothamBold";
+     text-transform: uppercase;
+}
+ .ListUl  ul li.DiscoveryGuideChildRow{
+     width:95% !important;
+}
+.ListUl ul li {
+clear:both;
+float:left;
+width:98%;
+}
+.ListUl ul{
+    margin: 3px 10px 6px 6px;
+
+}
+ul.ListUl li{
+    margin:0 0 0px 0;
+}
+ul.ListUl li ul li{
+    padding:2px 0 2px 6px;
+    margin-bottom: 0px;
+    font-family: helvetica;
+     text-transform: none;
+}
+
+
+.ListUl li.even_row {
+    background-color:#efefef;
+}
+.ListUl li.odd_row {
+    background-color:#e4e4ea;
+}
+.ListUl li li.even_row {
+    background-color:#eaeaea;
+}
+.ListUl li li.odd_row {
+    background-color:white;
+}
+.ListLabel{
+    float:left;
+}
+.ListUl .Crude{
+    clear: none;
+    float:right;
+}
+.ListUl .Crude ul{
+    float:left;
+    margin:0;
+}
+.ListUl .Crude  ul li{
+    float:left;
+    width:auto;
+    clear:none;
+    padding:0px 0 0px 6px;
+    margin:0;
+    text-transform: uppercase;
+}

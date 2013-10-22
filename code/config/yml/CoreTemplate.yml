@@ -1,0 +1,30 @@
+CoreTemplate:
+  tableName: core_template
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    default_skin_id:
+      type: integer(4)
+    name:
+      type: string(255)
+  relations:
+    DefaultSkin:
+      class: CoreSkin
+      local: default_skin_id
+      foreign: id  
+    Skins:
+      class: CoreSkin
+      refClass: CoreTemplateSkin
+      local: template_id
+      remote: skin_id
+      foreign: id
+      type: many
+    PageSkinTemplate:
+      class: CorePageSkinTemplate
+      local: id
+      foreign: template_id
+      remote: template_id
+      type: many

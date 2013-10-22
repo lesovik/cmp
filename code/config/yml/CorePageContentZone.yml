@@ -1,0 +1,12 @@
+CorePageContentZone:
+  tableName: core_page_content_zone
+  columns:
+    page_content_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    zone_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+ 

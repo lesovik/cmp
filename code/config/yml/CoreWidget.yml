@@ -1,0 +1,26 @@
+CoreWidget:
+  tableName: core_widget
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+    model_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Model:
+      class: CoreModel
+      local: model_id
+      foreign: id
+      onDelete: cascade
+    Zones:
+      class: CoreZone
+      refClass: CoreZoneWidget
+      local: widget_id
+      remote: zone_id
+      foreign: id
+      type: many

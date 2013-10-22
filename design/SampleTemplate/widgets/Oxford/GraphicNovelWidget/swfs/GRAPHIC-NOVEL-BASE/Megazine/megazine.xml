@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book SYSTEM "http://megazine.mightypirates.de/megazine.dtd">
+<book bgcolor="0xFFFFFF" foldfx="0.75" pagewidth="500"  pageheight="696" lang="en,de" 
+	zoommax="3" zoomrotate="false" ignoresides="true" maxloaded="20" 
+	hidebuttons="help settings language" dragrange="40" centercovers="false"
+	shadows="true" loadparallel="8">
+    <chapter anchor="Chapter 1">
+        <page stiff="true" anchor="cover">
+            <img src="oxford1/oxford1.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford2.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford3.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page buffer="true">
+            <img src="oxford1/oxford4.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+            <area left="80" top="80" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0x47BF79" pointText="1"/>
+            <area left="170" top="240" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0x4947BF" pointText="2"/>
+            <area left="190" top="300" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0xBF176D" pointText="3"/>
+            <area left="212" top="470" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0xBFB117" pointText="4"/>
+            <area left="230" top="600" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0xF46F1B" pointText="5"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford5.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford6.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford7.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford8.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford9.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford10.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford11.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford12.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford13.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford14.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford15.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford16.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford17.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford18.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford19.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford20.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford21.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford22.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford23.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford24.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford25.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford26.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford27.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford28.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford29.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford30.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford31.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford32.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford33.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford34.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford35.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford36.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford37.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford38.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford39.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford40.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford41.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford42.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford43.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford44.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford45.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford46.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford47.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford48.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford49.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford50.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford51.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford52.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford53.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford54.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford55.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford56.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford57.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford58.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford59.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford60.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford61.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford62.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford63.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford64.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford65.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford66.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford67.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford68.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford69.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford70.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford71.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford72.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford73.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford74.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford75.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford76.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford77.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford78.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford79.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford80.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford81.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford82.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford83.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford84.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford85.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford86.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford87.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford88.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford89.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford90.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford91.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford92.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford93.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford94.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford95.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford96.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford97.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford98.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford99.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford100.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford101.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford102.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford103.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford104.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford105.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford106.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford107.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford108.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford109.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford110.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford111.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford112.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford113.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford114.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford115.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford116.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford117.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford118.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford119.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford120.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford121.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford122.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford123.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford124.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford125.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford126.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford127.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford128.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford129.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford130.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford131.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford132.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford133.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford134.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford135.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford136.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford137.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford138.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford139.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford140.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford141.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford142.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford143.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford144.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford145.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford146.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford147.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford148.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford149.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford150.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford151.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford152.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford153.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford154.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford155.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford156.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford157.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford158.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford159.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford160.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford161.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford162.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford163.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford164.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford165.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford166.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford167.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford168.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+    </chapter>
+    <chapter anchor="Chapter 2">
+        <page anchor="chapter_2_cover">
+            <img src="oxford1/oxford1.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page></page>
+        <page>
+            <img src="oxford1/oxford2.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page></page>
+        <page>
+            <img src="oxford1/oxford3.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page></page>
+        <page>
+            <img src="oxford1/oxford4.swf" rasterize="true" width="500" height="696" gallery="MAIN" priority="0"/>
+            <area left="80" top="80" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0x47BF79"/>
+            <area left="170" top="240" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0x4947BF"/>
+            <area left="190" top="300" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0xBF176D"/>
+            <area left="212" top="470" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0xBFB117"/>
+            <area left="230" top="600" width="16" height="16" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry." url="http://www.uli-blasi.com/" overlay="none" isPoint="true" pointColor="0xFFFFFF"/>
+        </page>
+        <page></page>
+        <page>
+            <img src="oxford1/oxford5.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page></page>
+        <page>
+            <img src="oxford1/oxford6.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford7.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford8.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford9.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford10.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford11.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford12.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford13.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford14.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford15.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/oxford16.swf" rasterize="true" width="500" height="696" gallery="MAIN"/>
+        </page>
+    </chapter>
+</book>

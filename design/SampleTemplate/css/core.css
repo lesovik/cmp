@@ -1,0 +1,62 @@
+
+
+.Container {
+    width: 1026px;
+    margin: 0 auto;
+}
+.Wrap{
+    float:left;
+    width: 1024px;
+    padding:20px;
+    border: 0px none #ccc;
+    margin: 0 0 0 0;
+    background: #fff;
+}
+.AnotherWrap{
+    float:left;
+    width: 100%;
+    margin:0;
+    background: transparent ;
+}
+.MainContent{
+    float:left;
+    width:100%;
+}
+.LeftZone,.LeftAdminZone{
+    float:left;
+    width:190px;
+    overflow: hidden;
+}
+.RightZone,.RightAdminZone,.AdminBookHeadZone,.AdminBookBarWidget{
+    float:right;
+    width:749px;
+}
+
+.Header{
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    font-family: 'GothamBold',Helvetica,sans-serif;
+    font-size:25px;
+    font-weight: normal;
+}
+.Header.BookSubheader{
+    margin-bottom: 0;
+    font-family: 'GothamBold',Helvetica,sans-serif;
+    font-size:16px;
+    margin:13px 0 13px 0;
+    float:left;
+    width:100%;
+}
+.WidgetDiv{
+    float: left;
+}
+.BottomPart{
+    float:left;
+    margin-top: 15px;
+    width:100%;
+
+}
+.FilterDiv #FieldDiv_File{
+    display:none;
+}
+

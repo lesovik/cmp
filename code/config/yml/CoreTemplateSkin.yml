@@ -1,0 +1,14 @@
+CoreTemplateSkin:
+  tableName: core_template_skin
+  columns:
+    template_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    skin_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+
+
+

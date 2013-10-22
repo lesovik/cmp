@@ -1,0 +1,174 @@
+/*
+Copyright (c) 2003-2010, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+
+body
+{
+	/* Font */
+	font-size: 12px;
+
+	/* Text color */
+	color: #222;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+}
+
+html
+{
+	/* #3658: [IE6] Editor document has horizontal scrollbar on long lines
+	To prevent this misbehavior, we show the scrollbar always */
+	_overflow-y: scroll
+}
+
+img:-moz-broken
+{
+	-moz-force-broken-image-icon : 1;
+	width : 24px;
+	height : 24px;
+}
+img, input, textarea
+{
+	cursor: default;
+}
+
+
+
+
+/* OXFORD STYLING */
+body {
+	font-weight: normal; font-style: normal; line-height:normal; font-family: 'GothamLight', sans-serif;
+}
+body p {
+	margin:0;
+	padding:0;
+	
+}
+body div {
+	display:inline;
+}
+body span {
+}
+body span.line {
+	display:block;
+	float:left;
+	width:20px;
+	font-size:11px;
+}
+body span.stage {
+	padding-left:15px;
+	font-style: italic;
+}
+body span.start_char {
+	display:block;
+	float:left;
+	min-width:60px;
+
+	font-size: 11px;
+}
+body br {
+	clear:left;
+}
+body span.inner_bracket {
+	font-style:italic;
+}
+span.char {
+	text-transform: uppercase;
+	font-style: normal;
+}
+body p {
+	width:444px;
+}
+body p.long_p {
+	width:100%;
+}
+body .exit {
+	float:right;
+	padding-left:13px;
+}
+body span.continue {
+	padding-left:22px;
+}
+
+/* color */
+body span.start_char {
+	background: #FFDFDF;
+}
+body span.normal {
+	padding-left:2px;
+}
+body span.line {
+	background: #E5DFFF;
+}
+body span.stage {
+	background:url("skins/kama/images/stage_pointer.gif") no-repeat scroll 0 center transparent;
+}
+body span.exit {
+	background:url("skins/kama/images/stage_exit.gif") no-repeat scroll 0 center transparent;
+}
+body span.continue {
+	background:url("skins/kama/images/stage_continue.gif") no-repeat scroll 0 center transparent;
+}
+body span.char {
+	background:#8FFFF2;
+}
+
+body span.chorus {
+	border-left:2px solid #FF0000;
+}
+
+body span.number1 {
+	background:#000786;
+	color:#FFF;
+}
+body span.number2 {
+	background:#940000;
+	color:#FFF;
+}
+body span.number3 {
+	background:#DFA700;
+	color:#FFF;
+}
+body span.number4 {
+	background:#129032;
+	color:#FFF;
+}
+body span.number5 {
+	background:#880053;
+	color:#FFF;
+}
+body span.ecenter {
+	border-left:2px solid #00F;
+	display:block;
+	float:left;
+	text-align:center;
+	width:420px;
+}
+body span.equote {
+	border-left:2px solid #F0F;
+	padding-left:12px;
+}
+/*tag editor */
+/*body span.tag_center {
+	background:#D4CFFF;
+}
+body span.tag_char {
+	background:#8FFFF2;
+}
+body span.tag_line {
+	background:#E5DFFF;
+}
+body span.tag_stage {
+	background: url("skins/kama/images/stage_pointer.gif");
+	background-repeat:no-repeat;
+	background-position:0 center;
+	padding-left:16px;
+}
+body span.continue {
+	background:#9BD9FE;
+}*/
+body span.tags {
+		background:#FFDFDF;
+}

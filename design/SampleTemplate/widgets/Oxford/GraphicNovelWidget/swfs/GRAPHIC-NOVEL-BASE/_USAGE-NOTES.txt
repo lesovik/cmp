@@ -1,0 +1,17 @@
+Duplicate and fill this folder with all the pages for a Graphic Novel display!
+Make sure the base folder is named the BOOK_ID of the book it is related to.
+Other notes are as follows:
+
+PREVIEW SWF:
+base/preview.swf
+PREVIEW XML:
+base/oxford_flash_data/main.xml
+PREVIEW PAGES:
+base/oxford_flash_data/pages/[all pages].swf
+
+MEGAZINE SWF:
+base/Megazine/megazine.swf
+MEGAZINE XML:
+base/Megazine/megazine.xml
+MEGAZINE PAGES:
+base/Megazine/oxford1/[all pages].swf

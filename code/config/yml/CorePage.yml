@@ -1,0 +1,57 @@
+CorePage:
+  tableName: core_page
+  columns:
+    id:
+      type: integer(11)
+      primary: true
+      notnull: true
+      autoincrement: true
+    language_id:
+      type: integer(11)
+      notnull: true
+    lang_group_id:
+      type: integer(11)
+      notnull: true
+    model_id:
+      type: integer(11)
+      notnull: true
+    trace_id:
+      type: integer(11)
+      notnull: true
+    name:
+      type: string(255)
+      unique: true
+  relations:
+    Language:
+      class: CoreLanguage
+      local: language_id
+      foreign: id
+      onDelete: cascade
+    Trace:
+      class: CoreTrace
+      local: trace_id
+      foreign: id
+      onDelete: cascade
+    Model:
+      class: CoreModel
+      local: model_id
+      foreign: id
+      foreignAlias: Pages
+      onDelete: cascade
+    langGroup:
+      class: CoreGroup
+      local: lang_group_id
+      foreign: id
+      onDelete: cascade 
+    PageSkinTemplate:
+      class: CorePageSkinTemplate
+      local: id
+      foreign: page_id
+      remote: page_id
+      type: many
+    Contents:
+      class: CorePageContent
+      local: id
+      foreign: page_id
+      remote: page_id
+      type: many

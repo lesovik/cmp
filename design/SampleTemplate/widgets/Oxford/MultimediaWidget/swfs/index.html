@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  	<style>
+	  	#FlashInner,html,body {
+	  		width:100%;
+	  		height:100%;
+	  		margin:0;
+	  		padding:0;
+	  		border:0;
+	  		line-height:0;
+	  		font-size:0;
+			overflow: hidden;
+	  	}
+  	</style>
+	<script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script> 
+    <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript" src="js/swfaddress.js"></script>
+    <script type="text/javascript" src="js/swfmacmousewheel2.js"></script>
+    <script type="text/javascript" src="js/flashcall.js"></script>
+    <script type="text/javascript">
+		var flashVars = {playerFilePath: "flvs/multimedia_high.flv", playerType: "VIDEO", playerWidth:"720",playerHeight:"405", autoPlay:'false'};
+		//var flashVars = {playerFilePath: "mp3/RJaudNAX1-1b2.mp3", playerType: "AUDIO", playerWidth:"500", autoPlay:'false'};
+		var params = {bgcolor: '#000000', menu: 'false', wmode:'window',scale:'noscale', allowfullscreen:'true', allowScriptAccess:'always'};
+    	swfobject.embedSWF("player.swf", "FlashContent", "100%", "100%", "9.0.0",'js/expressinstall.swf', flashVars, params, {id: 'FlashContent'});
+    </script>
+
+
+  </head>
+  <body>
+	<div id="FlashInner">
+		<div id="FlashContent">
+		  <p style="color:#000000">In order to view this page you need Flash Player 9+ support!</p>
+		</div>
+	</div>
+  </body>
+</html>

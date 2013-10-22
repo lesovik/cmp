@@ -1,0 +1,16 @@
+CorePageSkinTemplate:
+  tableName: core_page_skin_template
+  columns:
+    page_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    template_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    skin_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+

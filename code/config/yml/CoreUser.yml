@@ -1,0 +1,48 @@
+CoreUser:
+  tableName: core_user
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true  
+    name:
+      type: string(255)
+    password:
+      type: password(32)
+    username:
+      type: string(12)
+      unique: true
+    first_name:
+      type: string(255)
+    last_name:
+      type: string(255)
+    email:
+      type: string(255)
+    last_logon:
+      type: timestamp
+    trace_id:
+      type: integer(4)
+      notnull: true
+    language_id:
+      type: integer(4)
+  relations:
+    Language:
+      class: CoreLanguage
+      local: language_id
+      foreign: id
+      onDelete: set null    
+    Trace:
+      class: CoreTrace
+      local: trace_id
+      foreign: id
+      onDelete: cascade
+    Roles:
+      class: CoreRole
+      refClass: CoreUserRole
+      local: user_id
+      remote: role_id
+      foreign: id
+      type: many
+  noList: [password]
+  noBaseForm: [last_logon]

@@ -1,0 +1,20 @@
+CoreImage:
+  tableName: core_image
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    file_id:
+      type: string(155)
+    name:
+      type: string(155)
+    caption:
+      type: clob
+  relations:
+    File:
+      class: CoreFile
+      local: file_id
+      foreign: id
+      onDelete: cascade

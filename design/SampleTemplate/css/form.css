@@ -1,0 +1,211 @@
+.FieldsDiv{
+    width: 100%;
+    float:left;
+}
+.FieldDiv{
+    float:left;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.FieldDiv label{
+    width:250px;
+    font-weight: bold;
+    color:#999;
+}
+.FieldDiv input{
+    float:right;
+    width:500px;
+    border:2px solid #939393;
+    font-size: 13px;
+    font-family: arial;
+    padding: 2px;
+}
+	.FieldDiv .RightColumn {
+		float:right;
+		width:500px;
+	}
+	.FieldDiv .RightColumn input {
+		float:none;
+		width:auto;
+	}
+.FieldDiv textarea{
+    float:right;
+    width:99%;
+    height:230px;
+    border:2px solid #939393;
+    font-family: Helvetica;
+}
+.EditArea .FieldDiv textarea{
+    height:80px;
+}
+.EditArea .FieldDiv.string input{
+    width:240px;
+    float: none;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.EditArea .FieldDiv.string{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+.EditArea input.CustomButton{
+    float: none !important;
+    margin:5px 0 0;
+}
+.FieldDiv select{
+    float:right;
+    width: 503px;
+    border:2px solid #939393;
+    font-size: 12px;
+    font-family: arial;
+    padding: 1px;
+    width: 503px;
+}
+.EditArea .FieldDiv select{
+    width: 250px;
+    font-family: "GothamMedium";
+}
+.OnEdit .ClickArea div{
+    visibility: hidden;
+}
+.OnEdit .ClickArea div.DivLabel{
+    visibility: visible;
+}
+.EditAreaLoader{
+    background: #E6E6E6 url(../images/loader-gray.gif) center center no-repeat;
+}
+.EditArea .FieldDiv label{
+    text-align: left;
+    margin-top:3px;
+    float:left;
+    width:auto;
+    font-weight: normal;
+    font-family: "GothamBold";
+    font-size: 12px;
+    color:#666;
+    display:none;
+}
+.RearEndQuestionCopy .EditArea .FieldDiv label,
+.RearEndAddAnswer  .EditArea .FieldDiv label,
+.RearEndChoice .EditArea .FieldDiv label{
+    display:none;
+}
+.FieldDiv.Set{
+    float:left;
+    width:190px;
+
+}
+.FieldDiv.Set .SetHead{
+    float:left;
+    width:100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.FieldDiv.Set .SetBody .BoxDiv{
+    float:left;
+    font-weight:bold;
+    margin-bottom:5px;
+    width:400px;
+
+}
+.FieldDiv.Set .SetBody .BoxDiv label{
+    float:left;
+    font-weight: normal;
+    width: auto;
+    font-family: Helvetica;
+
+}
+.FieldDiv.Set .SetBody .BoxDiv input{
+    float:left;
+   width:15px;
+   margin-right: 5px
+
+}
+.FieldDiv.ButtonDiv{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 0px none #eaeaea;
+}
+.FieldDiv.ButtonDiv input{
+    float:left ;
+    width:150px;
+    background-color: #fafafa;
+    border:1px solid #eaeaea;
+    color:#999;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.FieldDiv.ButtonDiv input:hover{
+    border:1px solid orange;
+    color:orange;
+}
+
+
+.FilterDiv{
+    float:left;
+    width: 798px;
+    border: 1px solid #fff;
+    margin-bottom: 13px;
+}
+.FilterDiv .FieldsDiv{
+    width:550px;
+    padding: 13px;
+}
+.FilterDiv .FieldDiv{
+    width: 100px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.FilterDiv .FieldDiv label{
+    width:100%;
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+.FilterDiv .FieldDiv input{
+    float:right;
+    width:93%;
+    font-size: 11px;
+    border: 1px solid #939393;
+}
+.FilterDiv .FieldDiv textarea{
+   font-size: 11px;
+   width: 135px;
+    height:15px;
+}
+.FilterDiv .FieldDiv select{
+    float:left;
+    font-size: 11px;
+    width: 93%;
+    border:1px solid #939393;
+}
+
+.FilterDiv .FieldDiv.ButtonDiv{
+     float:right;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding: 0px;
+}
+.FilterDiv .FieldDiv.ButtonDiv input{
+    width:74px;
+    line-height:10px;
+    font-size: 10px;
+    padding: 0 1px;
+}
+.FilterDiv .FieldDiv.ButtonDiv.clear_filter input{
+    color:#ccc;
+    margin-top: 2px;
+}
+.FilterButtons{
+    float:right;
+    padding:13px;
+    width:100px;
+}
+.FileForm .FieldDiv .RightColumn {
+	float:none;
+	width:auto;
+}

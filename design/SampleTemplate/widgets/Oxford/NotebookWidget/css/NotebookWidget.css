@@ -1,0 +1,368 @@
+.NotebookSplit {
+    height:20px;
+    display:block;
+    background:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/repeat_add.png") repeat-x scroll 0;
+    background-position: 0 -20px;
+    float:left;
+    width:100%;
+}
+.NotebookSplit div {
+    display:none;
+}
+.NotebookSplit.Over {
+    background-position: 0 4px;
+}
+.NotebookSplit.AddActive {
+    background-position: 0 -20px;
+}
+.NotebookSplit .SplitAdd {
+    background:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/add_button.png") no-repeat scroll 0 4px transparent;
+
+    height:20px;
+    width:49px;
+    cursor:pointer;
+    display: none;
+}
+.NotebookSplit .SplitFull {
+    background:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/add_full.png") no-repeat scroll 0 4px transparent;
+
+    height:20px;
+    width:208px;
+}
+.NotebookSplit .SplitFull div {
+    display:block;
+    height:20px;
+    float:left;
+    cursor: pointer;
+}
+.NotebookSplit .SplitFull .CloseBtn {
+    width:20px;
+}
+.NotebookSplit .SplitFull .SpaceBtn {
+    width:51px;
+    cursor:default;
+}
+.NotebookSplit .SplitFull .NoteBtn {
+    width:35px;
+}
+.NotebookSplit .SplitFull .TitleBtn {
+    width:35px;
+}
+.NotebookSplit .SplitFull .FolderBtn {
+    width:46px;
+}
+.EntryContent .FolderHead {
+	text-align:left;display:block
+}
+.NotebookSort {
+    background:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/sort_button.gif");
+    width:40px;
+    height:15px;
+    float:right;
+    cursor:pointer;
+}
+.NotebookWrapper .EntryWrapper.ui-sortable-helper  {
+    border:1px dotted black;
+    cursor:move;
+    background:white;
+    left:12px !important;
+}
+.NotebookTypes li {
+    float:left;
+    font-weight:bold;
+}
+.NotebookTypes li.Toggled {
+    color:#F00;
+    text-decoration: underline;
+}
+.NotebookRemovePageDisabled {
+    display:none;
+}
+
+.NotebookWidget .TabContentHead select {
+    float:right;
+}
+
+/* tooltip */
+.NotebookTypes li {
+    background-image: url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position: 51px 0;
+    width:17px;
+    height:17px;
+    display:block;
+    float:left;
+    margin-right:5px;
+    text-indent: -9999px;
+    color:transparent;
+    cursor:pointer;
+}
+
+.NotebookTypes li.ToggleNote {
+    background-position:0 0;
+}
+.NotebookTypes li.ToggleNote.Toggled {
+    background-position:0 17px;
+}
+.NotebookTypes li.ToggleBookmark {
+    background-position:17px 0;
+}
+.NotebookTypes li.ToggleBookmark.Toggled {
+    background-position:17px 17px;
+}
+.NotebookTypes li.ToggleMedia {
+    background-position:34px 0;
+}
+.NotebookTypes li.ToggleMedia.Toggled {
+    background-position:34px 17px;
+}
+.NotebookTypes li.ToggleDiscovery {
+    background-position:51px 0;
+}
+.NotebookTypes li.ToggleDiscovery.Toggled {
+    background-position:51px 17px;
+}
+.NotebookTypes li.ToggleDefinition {
+    background-position:68px 0;
+}
+.NotebookTypes li.ToggleDefinition.Toggled {
+    background-position:68px 17px;
+}
+.NotebookTypes li.ToggleQuote {
+    background-position:85px 0;
+}
+.NotebookTypes li.ToggleQuote.Toggled {
+    background-position:85px 17px;
+}
+.NotebookWidget .NotebookWrapper{
+    float:left;
+    padding: 13px;
+    width:97%;
+}
+.NotebookWidget .TopHeader {
+    float:left;
+    width:100%;
+}
+
+.NotebookAddPage{
+    background:url("/design/SampleTemplate/images/icons/addpage_btn_off.png") no-repeat scroll 0px 0px transparent;
+    height: 11px;
+    width:62px;
+   text-indent: -9999px;
+   overflow: hidden;
+    float:right;
+    cursor:pointer;
+    margin-top:6px;
+
+}
+.NotebookAddPage:hover{
+    background:url("/design/SampleTemplate/images/icons/addpage_btn_on.png") no-repeat scroll 0 0 transparent;
+    color:darkgreen;
+}
+.NotebookRemovePage{
+    background:url("/design/SampleTemplate/images/icons/removepage_btn_on.png") no-repeat scroll 0px 0px transparent;
+    height: 11px;
+    width:80px;
+    text-indent: -9999px;
+    overflow: hidden;
+    float:right;
+  
+    margin:6px 13px 0 13px;
+    cursor:pointer;
+}
+.NotebookRemovePage{
+    background:url("/design/SampleTemplate/images/icons/removepage_btn_on.png") no-repeat scroll 0px 0px transparent;
+    height: 11px;
+    width:80px;
+    text-indent: -9999px;
+    overflow: hidden;
+    float:right;
+
+    margin:6px 13px 0 13px;
+    cursor:pointer;
+}
+.NotebookRemovePage:hover{
+    background:url("/design/SampleTemplate/images/icons/removepage_btn_off.png") no-repeat scroll 0 0 transparent;
+    color:darkred;
+}
+.NotebookWrapper .TopHeader span {
+	margin-bottom:5px;
+	text-transform:none;
+}
+.NotebookWrapper .TopHeader input {
+	font-family:"GothamBold";
+	font-size:20px;
+	line-height:29px;
+	height:29px;
+	padding-right:10px;
+}
+.EntryWrapper{
+    float:left;
+    width:98%;
+    padding:5px;
+    position:relative;
+}
+.EntryWrapper .EntryContent{
+    float:left;
+    width:86%;
+}
+.EntryWrapper .EntryContent .quote_text {
+	display:block;
+	
+}
+.EntryWrapper .EntryContent a {
+	font-style: italic;
+}
+.EntryWrapper .control{
+    float:right;
+    margin-left:5px;
+    display:none;
+    position:absolute;
+    right:0;
+}
+.EntryWrapper.EntryFolder .Icon {
+	background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal07_folders.png");
+}
+.EntryWrapper .control.Hover{
+    display:block;
+}
+.EntryWrapper .control.NoHover{
+    display:none;
+}
+.EntryWrapper.Hover{
+    background-color: white;
+}
+.EntryWrapper.NoHover{
+    background-color: transparent;
+}
+.EntryWrapper .Icon{
+    background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position:51px 0;
+    color:transparent;
+    cursor:pointer;
+    display:block;
+    float:left;
+    height:17px;
+    text-indent:-9999px;
+    width:17px;
+    margin-right: 5px;
+}
+.EntryWrapper.EntryBookmark .Icon{
+	background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position:17px 0;
+}
+.EntryWrapper.EntryDiscovery .Icon{
+	background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position:51px 0;
+}
+.EntryWrapper.EntryNote .Icon{
+	background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position:0 0;
+}
+.EntryWrapper.EntryDefinition .Icon{
+	background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position:68px 0;
+}
+.EntryWrapper.EntryQuote .Icon{
+	background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position:85px 0;
+}
+.EntryWrapper.EntryMedia .Icon{
+	background-image:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/journal_tooltips.png");
+    background-position:34px 0;
+}
+.EntryWrapper.EntryTitle .Icon{
+    display:none;
+}
+.EntryWrapper.EntryTitle .EntryContent h1{
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 18px;
+    color:black;
+}
+.EntryWrapper .control span{
+    background:url("/design/SampleTemplate/images/icons/add-16.png") no-repeat scroll 4px 4px transparent;
+    height: 24px;
+    float:right;
+    width:24px;
+    cursor:pointer;
+    text-indent:-9999px;
+    overflow: hidden;
+}
+.EntryWrapper .control span:hover{
+    background:url("/design/SampleTemplate/images/icons/add-24.png") no-repeat scroll 0px 0px transparent;
+
+}
+.EntryWrapper .control span.delete{
+    background:url("/design/SampleTemplate/images/icons/delete-16.png") no-repeat scroll 4px 4px transparent;
+}
+.EntryWrapper .control span.delete:hover{
+    background:url("/design/SampleTemplate/images/icons/delete-24.png") no-repeat scroll 0 0 transparent;
+}
+.EntryWrapper .control span.edit{
+    background:url("/design/SampleTemplate/images/icons/edit-16.png") no-repeat scroll 4px 4px transparent;
+}
+.EntryWrapper .control span.edit:hover{
+    background:url("/design/SampleTemplate/images/icons/edit-24.png") no-repeat scroll 0 0 transparent;
+}
+.EntryWrapper .control .SortArrow{
+    width:24px;
+    background-position: 7px 0;
+    padding-top: 20px;
+    font-size: 8px;
+    font-family: "GothamBold";
+    text-transform: uppercase;
+    heigh:10px;
+    float:right;
+}
+.AddNotebookTooltip .Head{
+    font-family: "GothamBold";
+}
+.AddNotebookTooltip ul li{
+    font-family: "GothamBold";
+    font-size:10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.EntryWrapper .ShortDescription{
+    font-family: "GothamBold";
+}
+.EntryWrapper .CreditLine{
+    font-size:10px;
+}
+.EntryWrapper .LibraryName{
+    font-size:11px;
+    font-style: italic;
+}
+.EntryWrapper .MediaImage{
+    float:left;
+    margin-right: 13px;
+}
+.EntryEmpty {
+	padding:0;
+}
+.EntryEmpty.Hover {
+	background:transparent;
+}
+.NotebookDownloadPage {
+	background:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/download.png") no-repeat scroll 0 0 transparent;
+	display:block;
+	float:right;
+	height:14px;
+	width:78px;
+	margin-top:6px;
+	text-indent:-9999px;
+	margin-right:20px;
+}
+.ui-playscript-placeholder {
+	background: #FFF;
+	border:1px dashed #333;
+	float:left;
+	width:98%;
+	height:37px;
+}
+.EntryFolder .EntryContent dl {
+	display:none !important;
+}
+.EntryFolder .EntryContent.Toggled dl {
+	display:block !important;
+}

@@ -1,0 +1,12 @@
+CoreUserRole:
+  tableName: core_user_role
+  columns:
+    user_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    role_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+

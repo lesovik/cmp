@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book SYSTEM "http://megazine.mightypirates.de/megazine.dtd">
+<book bgcolor="0xFFFFFF" foldfx="0.75" pagewidth="375"  pageheight="522" lang="en,de"
+	zoommax="3" zoomrotate="false" ignoresides="true" maxloaded="20" 
+	hidebuttons="help settings language" dragrange="40" centercovers="false"
+	shadows="true" loadparallel="8">
+    <chapter anchor="Chapter 1">
+        <page stiff="true" anchor="cover">
+            <img src="oxford1/macbethCover.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth1.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth2.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth3.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth4.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth5.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth6.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth7.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth8.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth9.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth10.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth11.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth12.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth13.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth14.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth15.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth16.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth17.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth18.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth19.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth20.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth21.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth22.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth23.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth24.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth25.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth26.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth27.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth28.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth29.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth30.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth31.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth32.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth33.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth34.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth35.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth36.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth37.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth38.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth39.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth40.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth41.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth42.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth43.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth44.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth45.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth46.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth47.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth48.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth49.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth50.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth51.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth52.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth53.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth54.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth55.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth56.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth57.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth58.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth59.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth60.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth61.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth62.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth63.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth64.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth65.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth66.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth67.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth68.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth69.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth70.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth71.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth72.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth73.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth74.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth75.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth76.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth77.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth78.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth79.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth80.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth81.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth82.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth83.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth84.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth85.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth86.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth87.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth88.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth89.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth90.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth91.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth92.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth93.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth94.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth95.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth96.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth97.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth98.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth99.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth100.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth101.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth102.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth103.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth104.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth105.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth106.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth107.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth108.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth109.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth110.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth111.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth112.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth113.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth114.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth115.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth116.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth117.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth118.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth119.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth120.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth121.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth122.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth123.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth124.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth125.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth126.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth127.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth128.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth129.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth130.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth131.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth132.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth133.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth134.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth135.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth136.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth137.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth138.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth139.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth140.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth141.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth142.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth143.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page>
+            <img src="oxford1/macbeth144.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+        <page stiff="true">
+            <img src="oxford1/macbethBack.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+    </chapter>
+</book>

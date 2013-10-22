@@ -1,0 +1,23 @@
+CoreConstant:
+  tableName: core_constant
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+    value:
+      type: clob(255)
+    group_id:
+      type: integer(4)
+    type:
+      type: enum
+      values: ['Integer','Boolean','String','Serialized Array','Float']
+  relations:
+    Group:
+      class: CoreGroup
+      local: group_id
+      foreign: id
+      onDelete: cascade

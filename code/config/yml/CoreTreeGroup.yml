@@ -1,0 +1,13 @@
+CoreTreeGroup:
+  tableName: core_tree_group
+  columns:
+    tree_id:
+      type: integer(4)
+      primary: true
+      unsigned: true
+      notnull: true
+    group_id:
+      type: integer(4)
+      primary: true
+      unsigned: true
+      notnull: true

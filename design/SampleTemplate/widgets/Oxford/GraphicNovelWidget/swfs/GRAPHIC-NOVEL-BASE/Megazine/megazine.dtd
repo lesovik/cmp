@@ -1,0 +1,404 @@
+<!--
+MegaZine 3 - A Flash application for easy creation of book-like webpages.
+Copyright (C) 2007-2009 Florian Nuecke
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<!-- The main block, must contain at least one chapter block. -->
+<!ELEMENT book (chapter)*>
+<!--
+    barpos           - Positioning of the navigation bar.
+    bgcolor          - The default background color for pages in the book, as an ARGB or RGB value.
+    bggradient       - Toggle display of the background gradient.
+    buttoncolors     - Custom colors for chapter / anchor buttons.
+    centercovers     - Center cover pages?
+    cornerhint       - Hint that pages can be turned by lifting a corner.
+    dragkeepdist     - The distance to keep from the border the drag started from to avoid glitches.
+    dragrange        - The distance to the border inside which autodragging starts, and clicking triggers a pageturn or drag.
+    dragspeed        - The dragspeed of pages. Higher values mean faster page turning. Can be any value between 0 and 1.
+    errorlevel       - The error levels which are printed in the log (only interesting to developers). Levels are: ERROR, WARNING and NOTICE. Can be combined by using the binary or operator (|), e.g "ERROR|WARNING"
+    foldfx           - The default alpha of folding effects for pages. 0 means off.
+    handcursor       - Use the system's default hand cursor (used for links, e.g.) instead of the custom arrow cursors when moving over the draggable border areas.
+    hidebuttons      - List of menu buttons to hide.
+    ignoresides      - Do not use the book's pages' sides to trigger page turns, only corners.
+    ignoresyslang    - Whether to ignore the system language when determining the default language.
+    instantjumpcount - The number of pages that can be turned (via navigation) before the turn becomes instant, meaning without animation.
+    lang             - ID of the localization to use for the gui.
+    langpath         - Path to localization files.
+    langwarn         - Show error strings when a localized string cannot be found.
+    loadparallel     - The number of pages to load at a time.
+    lowqualitycount  - The number of pages that can be turned before falling back to low quality (from medium quality) for performance's sake.
+    ltr              - Determines the reading order (left to right if true, else right to left).
+    maxloaded        - Maximum number of pages to keep loaded in memory at a time.
+    navigation       - Show pagination / control menu
+    openhelp         - Determines whether to open the help automatically on the first visit of a user.
+    pagewidth        - The width of a page in pixels.
+    pageheight       - The height of a page in pixels.
+    pagenumbers      - Show page numbers left and right of pagination.
+    pageoffset       - Number by which to offset page display.
+    pagesounds       - Play sounds when dragging / turning pages.
+    password         - An optional password that has to be entered before the book is shown. THIS IS NOT SAFE, BECAUSE IT IS READABLE IN PLAIN TEXT IN THE XML FILE (AND IT IS QUITE EASY TO GET THE XML'S URL). Use this only for lowest level safety. Otherwise use a .htaccess file when using an Apache HTTP server, or an equivalent method.
+    prepage          - Image loaded and displayed to the right of the back cover page.
+    postpage         - Image loaded and displayed to the left of the cover page.
+    reflection       - Default on/off state of the page reflections.
+    shadows          - The default on/off state of shadows for pages.
+    slidedelay       - The wait time in seconds, when using the slideshow (how long a double page is displayed).
+    soundcount       - Number of page sounds available, order: drag, restore, turn, dragstiff, endstiff.
+    startpage        - The page shown initially.
+    startslide       - Automatically start slideshow on load.
+    thumbauto        - Automatically generate thumbnails for books with a maximum number of pages loaded in memory at a time.
+    waitfornoturning - Wait until all pages finished turning before loading additional pages (when not all pages can be kept in memory at a time).
+	zoomalign        - Viewport alignment while zooming in or out.
+    zoomcontrolalpha - Alpha of control area / thumbnail area when not hovered.
+    zoomfs           - Automatically go to fullscreen when clicking a zoom button.
+    zoominit         - Initial zoomstep when opening zoom mode.
+    zoommax          - Maximal enlargement in zoom mode.
+    zoommousemove    - Move around in zoom mode based on mouse move or dragging.
+    zoomrotate       - Show rotation buttons in zoom mode.
+    zoomthumb        - Show thumbnail in zoom mode when image is larger than display area.
+-->
+<!ATTLIST book
+    barpos              CDATA                               "25"
+    bgcolor             CDATA                               "0xFFCCCCCC"
+    bggradient          (true | false)                      "true"
+    buttoncolors        CDATA                               #IMPLIED
+    centercovers        (true | false)                      "true"
+    cornerhint          (true | false)                      "true"
+    dragkeepdist        CDATA                               "auto"
+    dragrange           CDATA                               "auto"
+    dragspeed           CDATA                               "0.25"
+    errorlevel          CDATA                               "ERROR|WARNING|NOTICE"
+    foldfx              CDATA                               "0.5"
+    handcursor          (true | false)                      "false"
+    hidebuttons         CDATA                               #IMPLIED
+    ignoresides         (true | false)                      "false"
+    ignoresyslang       (true | false)                      "false"
+    instantjumpcount    CDATA                               "5"
+    lang                CDATA                               "en"
+    langpath            CDATA                               #IMPLIED
+    langwarn            (true | false)                      "false"
+    loadparallel        CDATA                               "4"
+    lowqualitycount     CDATA                               "2"
+    ltr                 (true | false)                      "true"
+    maxloaded           CDATA                               "22"
+    navigation          (true | false)                      "true"
+    openhelp            CDATA                               "never"
+    pagewidth           CDATA                               "275"
+    pageheight          CDATA                               "400"
+    pagenumbers         (true | false)                      "true"
+    pageoffset          CDATA                               "0"
+    pagesounds          (true | false)                      "true"
+    password            CDATA                               #IMPLIED
+    postpage            CDATA                               #IMPLIED
+    prepage             CDATA                               #IMPLIED
+    reflection          (true | false)                      "false"
+    shadows             CDATA                               "0.25"
+    slidedelay          CDATA                               "5"
+    soundcount          CDATA                               "3,2,5,1,1"
+    startpage           CDATA                               "0"
+    startslide          (true | false)                      "false"
+    thumbauto           (true | false)                      "false"
+    waitfornoturning    (true | false)                      "true"
+	zoomalign           CDATA                               "center middle"
+    zoomcontrolalpha    CDATA                               "0.25"
+    zoomfs              (true | false)                      "true"
+    zoominit            CDATA                               "0"
+    zoommax             CDATA                               "1"
+    zoommousemove       (true | false)                      "true"
+    zoomrotate          (true | false)                      "true"
+    zoomthumb           (true | false)                      "true"
+>
+
+<!--
+    A chapter in the book
+-->
+<!ELEMENT chapter (page)*>
+<!--
+    anchor     - An id, that can be used to navigate to the first page in this chapter
+    bgcolor    - The default background color for pages in this chapter, as an ARGB or RGB value. Overwrites book default.
+    bgsound    - URL to a sound file to play in the background when in this chapter.
+    delay      - Time in milliseconds to delay the fade in of the sound.
+    fade       - Time in milliseconds over which to fade in an out when a page in the chapter becomes visible or hidden, respectively.
+    foldfx     - The default alpha of folding effects for pages. 0 means off. Overwrites book default.
+	pages      - Batch declaration of pages in this chapter.
+    slidedelay - Overrides setting with same name in book for this chapter.
+-->
+<!ATTLIST chapter
+    anchor              ID                                  #IMPLIED
+    bgcolor             CDATA                               #IMPLIED
+    bgsound             CDATA                               #IMPLIED
+    delay               CDATA                               "2000"
+    fade                CDATA                               "2000"
+    foldfx              CDATA                               #IMPLIED
+	pages               CDATA                               #IMPLIED
+    slidedelay          CDATA                               #IMPLIED
+>
+<!-- A page element, can contain any number of page elements. -->
+<!ELEMENT page (area | img | nav | snd | txt | vid)*>
+<!--
+    anchor     - An id, that can be used to navigate to the page (instead of using the number)
+    bgcolor    - The page's background color, as an ARGB or RGB value. Overwrites book and chapter defaults.
+    buffer     - Buffer page content into a static image while moving.
+	buttoncolor- Custom page button color in navbar.
+    foldfx     - Sets the folding effects alpha value for one page. 0 means off. Overwrites book and chapter defaults.
+    shadows    - Intensitiy of page shadow and highlight.
+    slidedelay - Overrides setting with same name in chapter for this page.
+    stiff      - If true, the page is a stiff page. Can be used for the cover, for example.
+-->
+<!ATTLIST page
+    anchor              ID                                  #IMPLIED
+    bgcolor             CDATA                               #IMPLIED
+    buffer              (true | false)                      "false"
+    buttoncolor         CDATA                               #IMPLIED
+    foldfx              CDATA                               #IMPLIED
+    shadows             CDATA                               #IMPLIED
+    slidedelay          CDATA                               #IMPLIED
+    stiff               (true | false)                      #IMPLIED
+>
+
+<!-- Area element, for overlaying pages with area based tooltips and links. -->
+<!ELEMENT area (title)*>
+<!--
+    height  - The height of the area. Required or the element is not loaded.
+    id      - ID of the element, so it can be referenced using the getElementById function.
+    left    - Distance to the left border of the page.
+	overlay - Overlay on mousover.
+    position- Position of the element relative to the page, overwrites absolute positioning.
+	priority- Priority while loading.
+    title   - Tooltip text to display on mouseover.
+    top     - Distance to the top border of the page.
+    url     - URL to navigate to if clicked.
+    width   - The width of the area. Required or the element is not loaded.
+-->
+<!ATTLIST area
+    height              CDATA                               #REQUIRED
+    id                  ID                                  #IMPLIED
+    left                CDATA                               "0"
+	overlay             CDATA                               "0"
+    position            CDATA                               #IMPLIED
+	priority            CDATA                               "5"
+    target              CDATA                               "_blank"
+    title               CDATA                               #IMPLIED
+    top                 CDATA                               "0"
+    url                 CDATA                               #IMPLIED
+    width               CDATA                               #REQUIRED
+>
+<!-- Element for loading images (jpg, png, gif...) and flash movies (swf). -->
+<!ELEMENT img (title | src | hires)*>
+<!--
+    aa      - Antialias images.
+    gallery - Specifies the name of the gallery this image is part of.
+    height  - The height of the image. If left blank the original height of the loaded file is used.
+    hires   - A highresolution version of the image - this will trigger a zoom icon to be displayed
+              in the corner of the image, that, when clicked, opens the zoom frame.
+    iconpos - Position of the zoom icon, being a combination of {left, right, top, bottom}, delimited
+              by spaces, and "left" and "right" as well as "top" and "bottom" excluding each other.
+    id      - ID of the element, so it can be referenced using the getElementById function.
+    left    - Distance to the left border of the page.
+    nocache - Disables flash internal caching for images and forces a load from the server.
+    position- Position of the element relative to the page, overwrites absolute positioning.
+    src     - Path to the file to load.
+    rasterize- Cache loaded swf as bitmap.
+    title   - Tooltip text to display on mouseover.
+    top     - Distance to the top border of the page.
+    url     - URL to navigate to if clicked.
+    width   - The width of the image. If left blank the original width of the loaded file is used.
+-->
+<!ATTLIST img
+    aa                  (true | false)                      "false"
+    gallery             CDATA                               #IMPLIED
+    height              CDATA                               "auto"
+    hires               CDATA                               #IMPLIED
+    iconpos             CDATA                               "bottom right"
+    id                  ID                                  #IMPLIED
+    left                CDATA                               "0"
+    nocache             (true | false)                      "false"
+	overlay             CDATA                               "0"
+    position            CDATA                               #IMPLIED
+	priority            CDATA                               "10"
+    showbutton          (true | false)                      "true"
+    src                 CDATA                               #IMPLIED
+    rasterize           (true | false)                      "false"
+    target              CDATA                               "_blank"
+    title               CDATA                               #IMPLIED
+    top                 CDATA                               "0"
+    url                 CDATA                               #IMPLIED
+    width               CDATA                               "auto"
+>
+<!-- Link element of the navigational list, can either link to an external address or a page anchor -->
+<!ELEMENT lnk (#PCDATA)>
+<!--
+    url     - The URL to navigate to if clicked.
+-->
+<!ATTLIST lnk
+    lang                CDATA                               #IMPLIED
+    target              CDATA                               "_blank"
+    url                 CDATA                               #IMPLIED
+>
+<!-- Used to display a menu, primarily meant to be used as an index -->
+<!ELEMENT nav (lnk)+>
+<!--
+    align   - Text alignment of the link elements.
+    color   - Default text color.
+    height  - Height of the navigational list. Elements are spread evenely across the given height.
+              If left blank elements are stacked on top of each other as close as possible.
+    hover   - Text color on mouseover.
+    id      - ID of the element, so it can be referenced using the getElementById function.
+    left    - Distance to the left border of the page.
+    position- Position of the element relative to the page, overwrites absolute positioning.
+    top     - Distance to the top border of the page.
+    width   - Width of the list. Element text is wrapped if too long.
+-->
+<!ATTLIST nav
+    align               (left | center | right)             "left"
+    color               CDATA                               "0x000000"
+    height              CDATA                               "auto"
+    hover               CDATA                               "0x333333"
+    id                  ID                                  #IMPLIED
+    left                CDATA                               "0"
+    position            CDATA                               #IMPLIED
+	priority            CDATA                               "5"
+    top                 CDATA                               "0"
+    width               CDATA                               "auto"
+>
+<!-- Defines background sound, played when the page becomes visible. Does NOT stop chapter's bgsound. -->
+<!ELEMENT snd (src)*>
+<!--
+    delay   - Time in milliseconds to delay the fade in of the sound.
+    fade    - Time in milliseconds over which to fade in an out when the containing page becomes
+              visible or hidden, respectively.
+    id      - ID of the element, so it can be referenced using the getElementById function.
+    loop    - Whether to loop the sound or not.
+    onlywhenactive - Only start playback when the containing page is the main page.
+    restart - Restart on page reentry or continue playback.
+    src     - Path to the file to load.
+-->
+<!ATTLIST snd
+    delay               CDATA                               "2000"
+    fade                CDATA                               "2000"
+    id                  ID                                  #IMPLIED
+    loop                (true | false)                      "true"
+    onlywhenactive      (true | false)                      "false"
+	priority            CDATA                               "15"
+    restart             (true | false)                      "false"
+    src                 CDATA                               #IMPLIED
+>
+<!-- Simple text element for displaying text blocks -->
+<!ELEMENT txt (content)*>
+<!--
+    align   - Text alignment.
+    color   - Text color.
+    content - Content of the text field.
+    height  - Height of the text box.
+    id      - ID of the element, so it can be referenced using the getElementById function.
+    left    - Distance to the left border of the page.
+    position- Position of the element relative to the page, overwrites absolute positioning.
+    top     - Distance to the top border of the page.
+    width   - Width of the text box. Text is wrapped if too long.
+-->
+<!ATTLIST txt
+    align               (left | center | right | justify)   "left"
+    color               CDATA                               "0x000000"
+    content             CDATA                               #IMPLIED
+    height              CDATA                               "auto"
+    id                  ID                                  #IMPLIED
+    left                CDATA                               "0"
+    position            CDATA                               #IMPLIED
+	priority            CDATA                               "5"
+    top                 CDATA                               "0"
+    width               CDATA                               "auto"
+>
+<!-- Used for loading movies (flv) -->
+<!ELEMENT vid (title | src)*>
+<!--
+    delay   - Time in milliseconds to delay the fade in of sound and playback of the video.
+    fade    - Time in milliseconds over which to fade in an out when the containing page becomes visible or hidden, respectively.
+    gui     - Path to the gui file to use (playback controls).
+    guicolor- The ARGB color of the playback controls.
+    height  - The height of the video. If left blank the original height of the loaded video is used.
+    id      - ID of the element, so it can be referenced using the getElementById function.
+    left    - Distance to the left border of the page.
+    loop    - Whether to loop the video or not.
+    nopause - Do not pause the video when the containing page is invisible.
+    onlywhenactive - Only start playback when the containing page is the main page.
+    position- Position of the element relative to the page, overwrites absolute positioning.
+    restart - Restart on page reentry or continue playback.
+    src     - Path to the file to load.
+    title   - Tooltip text to display on mouseover.
+    top     - Distance to the top border of the page.
+    url     - URL to navigate to if clicked.
+    useglow - Use glow effect on mouseover if a url is given.
+    width   - The width of the video. If left blank the original width of the loaded file is used.
+-->
+<!ATTLIST vid
+    delay               CDATA                               "2000"
+    fade                CDATA                               "2000"
+    gui                 CDATA                               #IMPLIED
+    guicolor            CDATA                               #IMPLIED
+    height              CDATA                               "100"
+    id                  ID                                  #IMPLIED
+    left                CDATA                               "0"
+    loop                (true | false)                      "true"
+    nopause             (true | false)                      "false"
+    onlywhenactive      (true | false)                      "false"
+	overlay             CDATA                               "0"
+    position            CDATA                               #IMPLIED
+	priority            CDATA                               "20"
+    restart             (true | false)                      "false"
+    src                 CDATA                               #IMPLIED
+    target              CDATA                               "_blank"
+    title               CDATA                               #IMPLIED
+    top                 CDATA                               "0"
+    url                 CDATA                               #IMPLIED
+    width               CDATA                               "100"
+>
+
+<!-- Used for localizing txt contents -->
+<!ELEMENT content (#PCDATA)>
+<!--
+    lang    - The language id of this title. E.g. 'en' or 'de'.
+-->
+<!ATTLIST content
+    lang                CDATA                               #REQUIRED
+>
+<!-- Used for localizing hires images -->
+<!ELEMENT hires (#PCDATA)>
+<!--
+    lang    - The language id of this title. E.g. 'en' or 'de'.
+-->
+<!ATTLIST hires
+    lang                CDATA                               #REQUIRED
+>
+<!-- Used for localizing images, videos and sounds -->
+<!ELEMENT src (#PCDATA)>
+<!--
+    lang    - The language id of this title. E.g. 'en' or 'de'.
+-->
+<!ATTLIST src
+    lang                CDATA                               #REQUIRED
+>
+<!-- Used for localizing titles for elements (shown in tooltips) -->
+<!ELEMENT title (#PCDATA)>
+<!--
+    lang    - The language id of this title. E.g. 'en' or 'de'.
+-->
+<!ATTLIST title
+    lang                CDATA                               #REQUIRED
+>

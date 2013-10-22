@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="de">
+    <langstring name="LNG_LANGUAGE_NAME">Deutsch</langstring>
+    
+    <langstring name="LNG_SLIDESHOW_START">Automatisches Blättern starten</langstring>
+    <langstring name="LNG_SLIDESHOW_STOP">Automatisches Blättern anhalten</langstring>
+    <langstring name="LNG_FIRST_PAGE">Erste Seite</langstring>
+    <langstring name="LNG_LAST_PAGE">Letzte Seite</langstring>
+    <langstring name="LNG_GOTO_PAGE">Gehe zu Seite $1</langstring>
+    <langstring name="LNG_GOTO_PAGE_DIALOG">Öffnet ein Eingabefeld, um eine Seitenzahl eingeben zu können, zu der direkt gesprun- gen werden soll.</langstring>
+    <langstring name="LNG_NEXT_PAGE">Nächste Seite</langstring>
+    <langstring name="LNG_PREV_PAGE">Vorherige Seite</langstring>
+    
+	<langstring name="LNG_GOTO_DIALOG_TIP">Bitte geben Sie die Zahl der Seite ein zu der Sie springen möchten und drücken Sie dann die Enter-Taste.</langstring>
+    
+    <langstring name="LNG_FULLSCREEN">Vollbildmodus aktivieren (im Vollbildmodus kann es sein, dass keine Tastenkürzel funktionieren)</langstring>
+    <langstring name="LNG_RESTORE">Vollbildmodus verlassen</langstring>
+    <langstring name="LNG_MUTE">Stummschalten</langstring>
+    <langstring name="LNG_UNMUTE">Stummschaltung aufheben</langstring>
+    
+    <langstring name="LNG_SETTINGS">Einstellungen</langstring>
+    <langstring name="LNG_SETTINGS_ACCEPT">Einstellungen speichern</langstring>
+    <langstring name="LNG_SHADOWS">Schatten</langstring>
+    <langstring name="LNG_SHADOWS_LONG">Schaltet die Verwendung von Schatten- und Glanzeffekten von Seiten beim Blättern an oder aus. Leichte Auswirkung auf die Geschwindigkeit.</langstring>
+    <langstring name="LNG_REFLECTION">Spiegelung</langstring>
+    <langstring name="LNG_REFLECTION_LONG">Schaltet die Spiegelung der Seiten unterhalb des Buches an oder aus. Starke Auswirkung auf die Geschwindigkeit.</langstring>
+    
+    <langstring name="LNG_ZOOM_IN">Bild vergrößern</langstring>
+    <langstring name="LNG_ZOOM_EXIT">Vergrößerte Ansicht verlassen</langstring>
+    <langstring name="LNG_ZOOM_NEXT">Nächstes Bild</langstring>
+    <langstring name="LNG_ZOOM_PREV">Voriges Bild</langstring>
+    <langstring name="LNG_ZOOM_ROTATE_RIGHT">Bild im Uhrzeigersinn drehen</langstring>
+    <langstring name="LNG_ZOOM_ROTATE_LEFT">Bild gegen den Uhrzeigersinn drehen</langstring>
+    
+    <langstring name="LNG_PASSWORD">Passwort</langstring>
+    <langstring name="LNG_LOADING_ZOOM">Lade... $1%</langstring>
+    
+	<langstring name="LNG_HELP">Hilfe anzeigen</langstring>
+	<langstring name="LNG_HELP_CLOSE">Hilfefenster schließen</langstring>
+	<langstring name="LNG_HELP_NEXT">Nächster Tipp</langstring>
+	<langstring name="LNG_HELP_PREV">Voriger Tipp</langstring>
+	
+	<!-- Note: help messages should not contain new lines. Use <br/> tags instead. -->
+    <langstring name="LNG_HELP1"><![CDATA[<b>Willkommen</b><br/><br/>Um durch dieses Buch zu navigieren, verwenden Sie die Pfeiltasten auf dem Keyboard (Links, Rechts) oder klicken Sie auf die Ecken der Seiten. Sie können alternativ Seiten ziehen, indem Sie den Mauszeiger bei gedrückter linker Maustaste von einer Seitenecke in Richtung der gegenüberliegenden bewegen.<br/><br/>Nachdem Sie dieses Fenster geschlossen haben, können Sie es durch einen Klick auf den "?" Knopf in der Leiste unter den Seiten wieder öffnen.]]></langstring>
+    <langstring name="LNG_HELP1B"><![CDATA[<b>Willkommen</b><br/><br/>Um durch dieses Buch zu navigieren, verwenden Sie die Pfeiltasten auf dem Keyboard (Links, Rechts) oder klicken Sie auf die Ecken der Seiten. Sie können alternativ Seiten ziehen, indem Sie den Mauszeiger bei gedrückter linker Maustaste von einer Seitenecke in Richtung der gegenüberliegenden bewegen.]]></langstring>
+	
+    <langstring name="LNG_HELP2"><![CDATA[<b>Navigationsmenü</b><br/><br/>Nutzen Sie die Navigationsleiste unterhalb der Seiten um schnell von einer Seite zur anderen zu springen. Sobald Sie über einen Seitenknopf (die Punkte) fahren wird eine Seitenvorschau eingeblendet. Diese zu generieren kann beim ersten Mal einen Augenblick dauern, haben Sie also bitte etwas Geduld.]]></langstring>
+	
+    <langstring name="LNG_HELP3"><![CDATA[<b>Zoom Modus</b><br/><br/>Sofern Sie ein kleines Lupensymbol auf einer Seite sehen (in der Regel über einem Bild) bedeutet das, dass eine höher auflösende Version verfügbar ist. Klicken Sie auf das Lupensymbol um den Zoom Modus zu öffnen.<br/><br/>Sobald Sie im Zoom Modus sind, verwenden Sie das Mausrad um herein- oder heraus zu zoomen. Wenn das Bild größer ist als der sichtbare Bereich, ziehen Sie das Bild oder das Rechteck über der Miniaturansicht um den sichtbaren Bereich zu ändern.<br/><br/>Wenn das Bild Teil einer Galerie ist werden zwei Pfeilknöpfe in der Box rechts oben eingeblendet, die verwendet werden können um zwischen den einzelnen Bilder der Galerie zu wechseln.<br/><br/>Klicken Sie auf den X Knopf oder drücken Sie ESC um den Zoom Modus zu verlassen.]]></langstring>
+	
+    <langstring name="LNG_HELP4"><![CDATA[<b>Vollbildmodus</b><br/><br/>Klicken Sie auf den Knopf ganz links in der Navigationsleiste um den Vollbildmodus zu aktivieren. Der Hauptgrund für diesen ist die Möglichkeit gezoomte Bilder besser darzustellen, da im Vollbildmodus der gesamte Bildschirm verwendet wird, im Gegensatz zum normalen Modus, in dem nur der Bereich den eine Doppelseite belegt verwendet wird.<br/><br/>Im Regelfall wird beim öffnen des Zoommodus automatisch in den Vollbildmodus gewechselt. Sollte dies nicht der Fall sein können sie diesen Knopf verwenden um manuell in den Vollbildmodus zu wechseln.]]></langstring>
+	
+    <langstring name="LNG_HELP5"><![CDATA[<b>Präsentationsmodus</b><br/><br/>Der Knopf mit dem "Abspielen"-Symbol startet oder pausiert den Präsentationsmodus, in dem die Seiten automatisch umgeblättert werden. Jede Seite wird dann für eine bestimmte Zeit lang angezeigt bevor automatisch auf die nächste Seite umgeblättert wird.]]></langstring>
+</lang>

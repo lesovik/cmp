@@ -1,0 +1,808 @@
+.Wrap{
+    padding: 0;
+    background: #f0f0f0 ;
+}
+.OxfordNextBarLogo{
+    background:url("../images/oxford_next_logo.png") no-repeat scroll left top transparent;
+    float:left;
+    height:55px;
+    overflow:hidden;
+    text-indent:-9999px;
+    width:184px;
+}
+.BookPage .OxfordNextBarLogo{
+    background:url("../images/oxford_next_logo_small.png") no-repeat scroll left top transparent;
+    float:left;
+    height:30px;
+    overflow:hidden;
+    text-indent:-9999px;
+    width:150px;
+}
+.OxfordNextBar{
+    background:url("../images/next_bar_bg.png") repeat-x scroll left top transparent;
+    float:left;
+    width:100%;    
+}
+.BookPage .OxfordNextBar{
+    background:none repeat-x scroll left top black;
+}
+.OxfordNextBarNav{
+    float:right;
+    color: #CCC
+}
+.OxfordNextBarNav a{
+    color: #b3b3b3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.OxfordNextBarNav a:hover{
+    text-decoration: none;
+    color: #CCC;
+}
+.OxfordLoginWidget{
+    float: none;
+}
+.OxfordLoginWidget h2{
+    text-transform: uppercase;
+    font-family: "GothamBold";
+    font-weight: normal;
+    float:left;
+}
+.LoginWrap .FieldsDiv{
+    float: none
+}
+.LoginWrap .FieldDiv label {
+    width:100%;
+}
+.LoginWrap .FieldDiv input {
+    width:211px;
+    float: none;
+}
+.LoginWrap{
+    text-align: center;
+    padding: 150px 402px;
+    float:left;
+
+}
+.LoginWrap .FieldDiv{
+    float: none;
+    text-align: left;
+}
+.LoginWrap .FieldDiv.ButtonDiv input:hover{
+    border: none;
+}
+
+
+
+.OxfordLogoLarge{
+    display: block;
+    background: transparent url(../images/Oxford_next_logo_large.png) top center no-repeat;
+    height: 77px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.LaunchBtn{
+    /*
+    background:url("../images/launch_btn.png") no-repeat scroll left top transparent;
+    clear:left;
+    display:block;
+    float:left;
+    height:17px;
+    margin-top:5px;
+    overflow:hidden;
+    text-indent:-9999px;
+    width:69px;
+    */
+}
+.BookName{
+    float:left;
+    width: 100%;
+}
+.BlackWrap{
+    background-color: black;
+    float: left;
+    width: 998px;
+}
+.PageContent{
+    background-color: #f0f0f0;
+    padding: 13px 64px 13px 64px;
+    float: left;
+    width:896px;
+}
+.AdminSkin .PageContent{
+    padding: 13px 13px 13px 13px;
+    float: left;
+    width:998px;
+}
+.AdminSkin .BlackWrap{
+    background-color: black;
+    float: left;
+    width: 100%;
+}
+.RightZone{
+    border-left:1px solid #E0E0E4;
+    float:right;
+    margin-left:64px;
+    padding-left:64px;
+    width:545px;
+}
+.LeftZone{
+    float:left;
+    width:222px;
+}
+.LeftAdminZone {
+
+padding-right:13px;
+margin-right: 13px;
+border-right: 1px solid #e0e0e0;
+}
+.WidgetTitleDiv{
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 13px;
+
+    font-family: "GothamBold";
+}
+.BaseListWidget{
+    width:750px;
+}
+.AccountContentWidget{
+    width: 100%;
+}
+.RightZone .WidgetDiv,.LeftZone .WidgetDiv{
+    margin-bottom: 13px;
+}
+.WidgetContentDiv{
+    width:100%;
+
+}
+.RightZone .WidgetContentDiv{
+    width:350px;
+}
+.LeftZone .WidgetContentDiv{
+
+}
+.FilterDiv {
+    width:718px;
+}
+.BookBar{
+    height: 56px;
+    float:left;
+    width: 100%;
+}
+.AdminSkin .BookBar{
+
+    margin-bottom: 13px;
+}
+.OxfordNextLink .ContentAreaButton {
+    color: #abde28;
+}
+.BookLogo{
+    height: 56px;
+    float:left;
+    width: 530px;
+    text-indent: -9999px;
+    overflow: hidden;
+    color:transparent;
+}
+.BookLogo:hover {
+    color:transparent;
+}
+.BookRecordDiv{
+    float: left;
+    width:534px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.Romeo_and_JulietLogo {
+    background: transparent url(../images/R&J_logo.png) top left no-repeat;
+
+}
+.HamletLogo {
+    background: transparent url(../images/Hamlet_LOGO.png) top left no-repeat;
+
+}
+.MacbethLogo{
+    background: transparent url(../images/Macbeth_logo.png) top left no-repeat;
+
+}
+.Romeo_and_JulietBarDiv{
+    background: transparent url(../images/R&J_bg.png) top left repeat-x;
+
+}
+.HamletBarDiv {
+    background: transparent url(../images/Hamlet_HEADER.jpg) top left repeat-x;
+
+}
+.MacbethBarDiv{
+    background: transparent url(../images/Macbeth_bg.png) top left repeat-x;
+
+}
+.BookWrap{
+    float: left;
+    width:100%;
+    background-color: black;
+    position:relative;
+}
+.BookHomeZone{
+    position:absolute;
+    background:url("../images/tab_gradient_right.png") repeat-y scroll right top #DBDBE0;
+    border-top:1px solid white;
+    bottom:-2px;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 100;
+    display: none;
+}
+.BookHomeZoneWrap{
+    background:url("../images/tab_gradient_left.png") repeat-y scroll left top transparent;
+
+    width:100%;
+    height:100%;
+
+}
+.BookHomeLeftZone
+{
+    width:47%;
+    float:left;
+    margin: 13px;
+
+}
+.BookHomeRightZone
+{
+    width:45%;
+    float:right;
+    margin:13px;
+padding:13px;
+width:47%;
+    background: white;
+
+}
+
+.BookExpiresOn{
+    float:left;
+    margin-top: 5px;
+    margin-left: 5px;
+    color:#7f7f7f;
+    font-style: italic;
+    font-size: 10px;
+}
+.BookLeftZone{
+    float: left;
+
+    position: relative;
+}
+.BookRightZone{
+    float: right;
+    position: relative;
+
+
+
+}
+.BookMiddleZone{
+    display:none;
+    float:left;
+    position:relative;
+}
+.CopyrightBar{
+    width:100%;
+    background-color: black;
+    float:left;
+    color:#999999;
+    font-size:10px;
+}
+.OxfordLogo{
+    float:left;
+    width: 99px;
+    height: 26px;
+    background: transparent url(../images/oxford_logo.png) top left no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.OxfordCopyright{
+    margin-top:5px;
+    float:left;
+}
+.OxfordNextLink{
+    margin-top:5px;
+    float: right;
+    margin-right: 13px;
+}
+.OxfordNextLink a{
+    color:#999999;
+}
+.OxfordNextLink a:hover{
+    color:#ccc;
+}
+.OxfordNavZone{
+    float: right;
+    width: 434px;
+    font-family: 'GothamMedium',Helvetica,sans-serif;
+    font-weight: normal;
+}
+.LogoutDiv a {
+    color:#abde28;
+    font-weight:normal;
+}
+.BaseAdminLinkWidget{
+    float:left;
+    padding-top: 17px;
+}
+.BookPage .BaseAdminLinkWidget{
+
+    padding-top: 5px;
+}
+.BaseAdminLink{
+    font-size: 10px;
+    cursor: pointer;
+    margin-right:18px;
+}
+.BaseAdminLink.Help{
+    color:#ABDE28;
+    font-family: "GothamMedium";
+}
+.BaseAdminLink.Help{
+    color:#ABDE28;
+    font-family: "GothamMedium";
+}
+.OxfordHelpZone{
+    margin-right:50px;
+}
+.BaseAdminLink.Selected,.LoggedAsNameDiv .Selected{
+    color:#eaeaea;
+
+}
+.FilterDiv .FieldsDiv {
+    width:540px;
+}
+.BookBarWidget{
+    width:100%;
+}
+.BookNav{
+    float: left;
+    padding: 17px 0 0px 0;
+}
+.BookNav ul li{
+    float: left;
+}
+.BookNav a{
+    display:block;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url(../images/icons/book_nav_question_off.png) top left no-repeat;
+    height: 24px;
+    width:24px;
+}
+.BookScreenNav{
+    float: left;
+    padding: 18px 0 0px 0;
+}
+.BaseListWidget .BookScreenNav{
+    float: right;
+}
+.BookScreenNav a{
+
+    margin-right:13px;
+    color:transparent;
+
+}
+.BookTextNav{
+    float:right;
+    display:none;
+}
+.BookTextNav a{
+    margin-left:5px;
+    color:transparent;
+}
+.BookQuestion{
+    float:right;
+    margin-left:5px;
+    margin-right: 13px;
+    display:none;
+}
+.BookNav .book_nav_home{
+    background: transparent url(../images/icons/book_nav_home_off.png) top left no-repeat;
+}
+.BookNav .book_nav_home:hover{
+    background: transparent url(../images/icons/book_nav_home_on.png) top left no-repeat;
+}
+.BookNav .book_nav_home.Selected{
+    background: transparent url(../images/icons/book_nav_home_sel.png) top left no-repeat;
+}
+
+.BookNav .book_nav_home{
+    background: transparent url(../images/icons/book_nav_home_off.png) top left no-repeat;
+    width:55px;
+    height:18px;
+}
+.BaseListWidget .BookNav .book_nav_home{
+
+    display:block;
+}
+.BookNav .book_nav_home:hover{
+    background: transparent url(../images/icons/book_nav_home_on.png) top left no-repeat;
+}
+.BookNav .book_nav_home.Selected{
+    background: transparent url(../images/icons/book_nav_home_on.png) top left no-repeat;
+}
+
+.BookNav .book_nav_fullscreen{
+    background: transparent url(../images/icons/book_nav_fullscreen_off.png) top left no-repeat;
+    width:101px;
+    height:18px;
+    display:none;
+}
+.BookNav .book_nav_fullscreen:hover{
+    background: transparent url(../images/icons/book_nav_fullscreen_on.png) top left no-repeat;
+}
+.BookNav .book_nav_fullscreen.Selected{
+    background: transparent url(../images/icons/book_nav_fullscreen_sel.png) top left no-repeat;
+
+}
+
+.BookNav .book_nav_widescreen{
+    width:159px;
+    height:18px;
+    background: transparent url(../images/icons/book_nav_widescreen_off.png) top left no-repeat;
+}
+.BookNav .book_nav_widescreen:hover{
+    background: transparent url(../images/icons/book_nav_widescreen_on.png) top left no-repeat;
+}
+.BookNav .book_nav_widescreen.Selected{
+    background: transparent url(../images/icons/book_nav_widescreen_sel.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_1{
+    width:16px;
+    background: transparent url(../images/icons/book_nav_letter_1_off.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_1:hover{
+    background: transparent url(../images/icons/book_nav_letter_1_on.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_1.Selected{
+    background: transparent url(../images/icons/book_nav_letter_1_sel.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_2{
+    width:20px;
+    background: transparent url(../images/icons/book_nav_letter_2_off.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_2:hover{
+    background: transparent url(../images/icons/book_nav_letter_2_on.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_2.Selected{
+    background: transparent url(../images/icons/book_nav_letter_2_sel.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_3{
+
+    background: transparent url(../images/icons/book_nav_letter_3_off.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_3:hover{
+    background: transparent url(../images/icons/book_nav_letter_3_on.png) top left no-repeat;
+}
+.BookNav .question:hover{
+    background: transparent url(../images/icons/book_nav_question_on.png) top left no-repeat;
+}
+.BookNav .book_nav_letter_3.Selected{
+    background: transparent url(../images/icons/book_nav_letter_3_sel.png) top left no-repeat;
+}
+.RightAdminZone .WidgetContentDiv{
+    width:724px;
+}
+.HomePageSkin .OxfordLoginZone{
+    float:left;
+    width:250px;
+}
+.RightLoginZone{
+    float:right;
+    width:545px;
+    margin-left: 50px;
+    padding-left: 50px;
+    border-left: 1px solid #e0e0e4
+}
+.HomePageSkin .OxfordLoginZone .FieldDiv{
+    position:relative;
+}
+.HomePageSkin .OxfordLoginZone .FieldDiv input {
+
+    width:241px;
+}
+.HomePageSkin .FieldsDiv {
+
+}
+.HomePageSkin .OxfordLoginZone .FieldDiv label {
+    position:absolute;
+    top:3px;
+    left:4px;
+    color:#ccc;
+    width:100%;
+}
+.OxfordLoginWidget .FieldDiv.ButtonDiv input{
+    float: left;
+    background: transparent url(../images/login_btn.png) top left no-repeat;
+    width: 65px;
+    height: 27px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+.HomePageSlide{
+    width:545px;
+    height:281px;
+    margin-bottom: 13px;
+    overflow: hidden;
+}
+
+.BottomRightLoginZone ol li{
+    background: transparent url(../images/home_arrow.png) top left no-repeat;
+    float:left;
+    width:125px;
+    height:35px;
+    padding-top:100px;
+    margin-right:11px;
+
+    font-size: 12px;
+}
+.BottomRightLoginZone ol{
+    clear:both;
+    float:left;
+    width:100%;
+    margin:13px 0;
+    list-style-type:decimal;
+    font-family: "GothamBold"
+}
+.HomePageSkin h2{
+    font-family: "GothamBold";
+    font-weight: normal;
+    margin-bottom: 13px;
+    
+    
+}
+.PageContentLoader h2{
+    font-family: "GothamBold";
+    font-weight: normal;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+
+}
+.CreateAccountButton{
+    float:right;
+    background:url("../widgets/Oxford/SelfCheckWidget/images/selfCheckButton_quick_on.png") no-repeat scroll left top transparent;
+    border:0 none;
+    color:white;
+    cursor:pointer;
+    display:block;
+    font-size:10px;
+    font-weight:normal;
+    height:18px;
+    padding:5px 0px 0 0;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    width:102px;
+}
+.AccountButtons{
+    float:left;
+    width:100%;
+    margin-top: 13px;
+
+}
+.AccountButton{
+    float:left;
+    background:url("../widgets/Oxford/SelfCheckWidget/images/selfCheckButton_quick_on.png") no-repeat scroll left top transparent;
+    border:0 none;
+    color:white;
+    cursor:pointer;
+    display:block;
+    font-size:10px;
+    font-weight:normal;
+    height:18px;
+    padding:5px 0px 0 0;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    width:102px;
+}
+.UserDetailsWidget{
+    width:100%;
+}
+.CreateAccountButton:hover{
+    color:white;
+    background:url("../widgets/Oxford/SelfCheckWidget/images/selfCheckButton_quick_off.png") no-repeat scroll left top transparent;
+}
+.AccountButton:hover{
+    color:white;
+    background:url("../widgets/Oxford/SelfCheckWidget/images/selfCheckButton_quick_off.png") no-repeat scroll left top transparent;
+}
+.LogoutButton{
+    float: right;
+}
+.NextPoints{
+    float:left;
+    width:100%;
+    font-family: "GothamBold";
+    text-transform: uppercase;
+}
+.NextPoints .head{
+    float:left;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.NextPoints .body{
+    float:right;
+    color:#0486d1;
+    font-size: 15px;
+}
+.AccountSkin .LeftZone .FieldDiv input {
+	width:214px;
+	float:none;
+}
+.AccountSkin .LeftZone .Error {
+	background:none repeat scroll 0 0 #FFEFEF;
+	border:1px dashed #CC0000;
+	display:block;
+	float:left;
+	margin-bottom:10px;
+	padding:5px;
+}
+.BookActivatorWidget .FieldDiv.ButtonDiv input{
+    float: left;
+    background: transparent url(../images/unlock_button.png) top left no-repeat;
+    width: 87px;
+    height: 21px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+.AccountSkin .LeftZone h2{
+    text-transform: uppercase;
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 16px;
+    float:left;
+    width: 100%;
+    margin-bottom: 6px;
+}
+.AccountSkin .PageContent,.LoginSkin .PageContent{
+    position: relative;
+}
+.AccountSkin .LeftZone h2.AccountWelcome{
+    text-transform: none;
+
+}
+.PageContentLoader{
+
+    background-color:  #F0F0F0;
+    position: absolute;
+    z-index: 1000;
+
+}
+.PageContentLoader.Loading{
+    text-align: center;
+    background-image: url("/design/SampleTemplate/images/loader-gray.gif");
+    background-repeat: no-repeat;
+    background-position:  center 40%;
+    font-family: "GothamBold";
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.AccountButton.BackButton{
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.Error{
+    color:red;
+    font-family: "GothamBold";
+    font-weight: normal;
+}
+.ForgotPassword{
+    float:right;
+    font-family: "GothamBold";
+    font-weight: normal;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.FieldDiv.ButtonDiv.log_in{
+    width:auto;
+}
+
+.BookDetails {
+    float:left;
+    margin-top: 5px;
+    margin-left: 5px;
+    color:#7f7f7f;
+    font-size: 12px;
+    width: 100%;
+    font-family: "GothamMedium";
+    line-height:18px;    
+}
+.BookDetails label {
+    color:black;
+    font-family: "GothamBold";
+}
+
+.BookDetails .AccountDetails{
+    width: 100%;
+    float: left;
+}
+.BookDetails .LeftSide, .BookDetails .RightSide {
+    width: 49%;
+}.BookDetails .LeftSide{
+     float: left;
+}
+.BookDetails .RightSide {
+    float: right;
+}
+.BookDetails .AccountDetails .LeftSide span {
+    float:right;
+}
+.BookDetails .SelfCheckDetails{
+    width: 529px;
+    background-color: #e6e6e6;
+    float: left;
+    margin:13px 0;
+}
+span.WhatsThis a {
+    color: #0f8bd2;
+    font-style: italic;
+    cursor:pointer;
+}
+span.WhatsThis a:hover {
+    text-decoration: underline;
+}
+
+.LaunchBtn {
+    clear: left;
+    color: #0f8bd2 !important;
+    font-size: 16px;
+    font-family: "GothamBold";
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.LaunchBtn a {
+    color: #0f8bd2 !important;
+}
+.LaunchBtn a:hover {
+    color: #7F7F7F !important;
+}
+.LaunchBtn .leftCap {
+    background:url("/design/SampleTemplate/images/launch_left.png") no-repeat scroll left top transparent;
+    float:left;
+    height:21px;
+    width:7px;
+}
+.LaunchBtn .bg {
+    background:url("/design/SampleTemplate/images/launch_bg.png") repeat-x scroll left top transparent;
+    float:left;
+    height:21px;
+}
+.LaunchBtn .rightCap {
+    background:url("/design/SampleTemplate/images/launch_right.png") no-repeat scroll left top transparent;
+    float:left;
+    height:21px;
+    width:7px;
+}
+
+/****************************************
+ *
+ * PASSWORD RECOVERY FORM
+ *
+ ****************/
+
+.PasswordRecoveryWindow {
+
+}
+
+.PasswordRecoveryWindow input {
+    float: none !important;
+}
+.PasswordRecoveryWindow input.invalid {
+    color: red !important;
+}
+.PasswordRecoveryWindow p {
+    margin-bottom: 13px;
+}

@@ -1,0 +1,18 @@
+CoreGroup:
+  tableName: core_group
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+    reference:
+      type: string(255)
+  relations:
+    Labels:
+      class: CoreLabel
+      local: id
+      foreign: group_id
+      type: many

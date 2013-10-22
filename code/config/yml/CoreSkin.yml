@@ -1,0 +1,30 @@
+CoreSkin:
+  tableName: core_skin
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+      unique: true
+    path:
+      type: string(255)
+  relations:
+    Templates:
+      class: CoreTemplate
+      refClass: CoreTemplateSkin
+      local: skin_id
+      remote: template_id
+      foreign: id
+      type: many
+
+    Zones:
+      class: CoreZone
+      refClass: CoreSkinZone
+      local: skin_id
+      remote: zone_id
+      foreign: id
+      type: many    
+

@@ -1,0 +1,34 @@
+CoreZone:
+  tableName: core_zone
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+    wrap:
+      type: boolean
+  relations:
+    Skins:
+      class: CoreSkin
+      refClass: CoreSkinZone
+      local: zone_id
+      remote: skin_id
+      foreign: id
+      type: many
+    Widgets:
+      class: CoreWidget
+      refClass: CoreZoneWidget
+      local: zone_id
+      remote: widget_id
+      foreign: id
+      type: many
+    PageContents:
+      class: CorePageContent
+      refClass: CorePageContentZone
+      local: zone_id
+      remote: page_content_id
+      foreign: id
+      type: many

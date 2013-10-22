@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book SYSTEM "http://megazine.mightypirates.de/megazine.dtd">
+<book bgcolor="0xFFFFFF" foldfx="0.75" pagewidth="375"  pageheight="522" lang="en,de"
+	zoommax="3" zoomrotate="false" ignoresides="true" maxloaded="20" 
+	hidebuttons="help settings language" dragrange="40" centercovers="false"
+	shadows="true" loadparallel="8">
+    <chapter anchor="Chapter 1">
+        <page stiff="true" anchor="cover">
+            <img src="oxford1/hamletCOVER.swf" rasterize="true" width="375" height="522" gallery="MAIN"/>
+        </page>
+		<page><img src="oxford1/hamletINTRO.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet1.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet2.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet3.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet4.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet5.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet6.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet7.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet8.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet9.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet10.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet11.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet12.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet13.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet14.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet15.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet16.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet17.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet18.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet19.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet20.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet21.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet22.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet23.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet24.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet25.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet26.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet27.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet28.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet29.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet30.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet31.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet32.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet33.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet34.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet35.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet36.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet37.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet38.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet39.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet40.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet41.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet42.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet43.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet44.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet45.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet46.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet47.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet48.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet49.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet50.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet51.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet52.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet53.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet54.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet55.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet56.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet57.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet58.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet59.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet60.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+		<page><img src="oxford1/hamlet61.swf" rasterize="true" width="375" height="522" gallery="MAIN"/></page>
+        
+    </chapter>
+</book>

@@ -1,0 +1,18 @@
+/******************************
+ * GENERIC/GLOBAL STYLES
+ ******************************/
+.printBtn {
+    font-family:"GothamMedium";
+    font-size:10px;
+    margin:0 0 10px 0;
+    text-transform:uppercase;
+    color: #0F8BD2;
+	padding-left:5px;
+}
+a.CommandButton {
+    font-family:"GothamMedium";
+    font-size:10px;
+    margin:0 0 10px 12px;
+    text-transform:uppercase;
+    color: #0F8BD2;
+}

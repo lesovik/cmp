@@ -1,0 +1,490 @@
+.Downloads {
+    padding: 13px;
+}
+.Downloads div.TopHeader {
+    color:black;
+    display:block;
+    font-family:"GothamBold";
+    font-size:20px;
+    text-transform:uppercase;
+    font-size:20px;
+}
+.Downloads .SimpleGalleryContainer,.Downloads .TileContainer {
+    padding:10px;
+    margin:10px;
+    background:#FFF;
+}
+.Downloads .large_preview {
+    padding:10px;
+
+}
+.Downloads .SimpleGalleryContainer .large_preview {
+    text-align:center;
+}
+.Downloads .SimpleGalleryContainer li {
+    width:16px;
+    height:16px;
+    display:block;
+    margin-right:5px;
+    margin-top:5px;
+    float:left;
+    background:#b3b3b3;
+    cursor:pointer;
+}
+.Downloads .SimpleGalleryContainer li span {
+    display:none;
+}
+.Downloads .SimpleGalleryContainer li.current {
+    background: #0f8bd2;
+}
+.Downloads .clear {
+    clear:both;
+}
+
+.Downloads .view_type {
+    text-align:right;
+}
+.Downloads .view_type li {
+    display:inline;
+    margin-right:6px;
+    border-right:1px solid #666;
+}
+.Downloads .view_type li.last {
+    border-right:0;
+}
+.Downloads .view_type li span {
+    color:#0F8BD2;
+    cursor:pointer;
+    font-family: "GothamBold";
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.Downloads .view_type li.current span {
+    text-decoration:underline;
+}
+.Downloads .view_type li span.view,.Downloads .view_type li.current span.view  {
+    color:#666;
+    text-decoration:none;
+    cursor:default;
+    font-family: "GothamBold";
+    font-size: 10px
+}
+.Downloads .ContentPlaceholder .Header {
+    color:#000;
+    font-size:14px;
+    font-weight:normal;
+    padding-top:10px;
+}
+.Downloads .ContentPlaceholder .Content {
+    color:#979797;
+    font-size:12px;
+}
+.Downloads .OuterContainer .LeftColumn,.Downloads .OuterContainer .RightColumn {
+    width:50%;
+    float:left;
+}
+.Downloads .Folder {
+    padding:5px;
+}
+.Downloads .Folder.Other {
+    background:#ceced5;
+}
+.Downloads .Folder .header {
+    color:#000000;
+    display:block;
+    font-family:"GothamBold";
+    font-size:16px;
+    margin:0 0 7px !important;
+}
+.Downloads .Folder .items {
+    float:right;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: "GothamBold";
+}
+.Downloads .TileContainer li {
+    float:left;
+    width:170px;
+    padding:5px;
+}
+.Downloads .TileContainer li .title {
+    font-weight:bold;
+}
+.Downloads .ListContainer li {
+    display:block;
+    padding:5px;
+    background:#FFF;
+    margin:5px;
+}
+.Downloads .ListContainer li .title {
+    font-weight:bold;
+    color:#000;
+}
+
+.Downloads .ListContainer li.list_Video .small_preview {
+    width:200px;
+    display:block;
+    float:left;
+    font-weight:bold;
+    padding-right:5px;
+}
+.Downloads .ListContainer li.list_Video .title {
+    display:block;
+}
+.Downloads .ListContainer li.list_Video .description {
+    display:block;
+}
+.Downloads .ListContainer li.list_Video .desc_description {
+    display:block;
+    clear:both;
+}
+.Downloads h2 {
+    padding:5px;
+    color:#000;
+    font-size:17px;
+}
+
+
+.Downloads .DownloadsContainer .description {
+    padding:5px;
+}
+
+.DownloadsNavBtn {
+    color:#333333;
+    font-size:10px;
+    text-transform:uppercase;
+}
+
+
+/*   - ADMIN AREA -  */
+/* - MEDIA FOLDERS - */
+
+.Crude ul, .Crude {
+    clear:both;
+    display:block !important;
+}
+
+.child {
+    margin-left:13px;
+}
+
+.LibraryFolderWrapper ul {
+
+}
+
+.LibraryFolderWrapper ul ul.level0 {
+
+}
+.LibraryFolderWrapper ul ul.level0 li.folder_row.even_row {
+    background-color: #CECED5;
+}
+.LibraryFolderWrapper ul ul.level0 li.folder_row {
+    display:block;
+    float:left;
+    padding:5px;
+    width:98%;
+}
+.LibraryFolderWrapper li .CategoryNameWrap, .LibraryFolderWrapper li.Open ul li .CategoryNameWrap,
+.LibraryFolderWrapper li.Open ul li.Open ul li .CategoryNameWrap {
+    background:url("/design/SampleTemplate/images/icons/arrow_right.png") no-repeat scroll -5px -2px;
+    float:left;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    text-transform:uppercase;
+}
+.LibraryFolderWrapper .Open .CategoryNameWrap {
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll -5px -2px;
+}
+.LibraryFolderWrapper li.Open .CategoryNameWrap, .LibraryFolderWrapper li.Open ul li.Open .CategoryNameWrap,
+.LibraryFolderWrapper li.Open ul li.Open ul li.Open .CategoryNameWrap{
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll -5px -2px;
+}
+.LibraryFolderWrapper .CategoryNameWrap .CategoryName {
+    float:left;
+    cursor: pointer;
+    padding-left: 15px;
+}
+ul.level0 li.folder_row ul {
+    clear:both;
+}
+li.ItemRow {
+    clear:both;
+    display:block;
+    float:left;
+    width:95%;
+}
+li.ItemRow.even_row {
+    background-color: white;
+}
+li.ItemRow.odd_row {
+    background-color:#dEdEf5;
+}
+li.ItemRow .ItemNameWrap{
+    display:block;
+    padding: 5px;
+}
+li.ItemRow .ItemNameWrap .ItemName{
+    display:block;
+}
+
+.LibraryFoldersList li ul{
+    display:none;
+}
+.LibraryFoldersList li.Open ul{
+    display:block;
+}
+.LibraryFoldersList li.Open ul li ul{
+    display:none;
+}
+.LibraryFoldersList li.Open ul li.Open ul{
+    display:block;
+}
+.LibraryFoldersList li.Open ul li.Open ul li ul{
+    display:none;
+}
+.LibraryFoldersList li.Open ul li.Open ul li.Open ul{
+    display:block;
+}
+
+/* - MEDIA LIBRARY - */
+
+ul.MediaModuleWrapper {
+
+}
+
+
+ul.MediaModuleWrapper li.even_row {
+    background-color: #CECED5;
+}
+ul.MediaModuleWrapper li.MediaItem {
+    display:block;
+    float:left;
+    padding:5px;
+    width:98%;
+}
+ul.DownloadsWrapper li.MediaItem .CategoryNameWrap {
+    background-image:url("/design/SampleTemplate/images/icons/arrow_right.png");
+    background-position: 8px -2px;
+    background-repeat: no-repeat;
+    float:left;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    text-transform:uppercase;
+    width:100%;
+}
+ul.DownloadsWrapper li.MediaItem.Open .CategoryNameWrap{
+    background:url("/design/SampleTemplate/images/icons/arrow_down.png") no-repeat scroll 8px -2px;
+}
+ul.MediaModuleWrapper .CategoryNameWrap .CategoryName {
+    float:left;
+    cursor: pointer;
+    padding-left: 15px;
+}
+.ItemWrapper {
+    clear: both;
+}
+.AddFile {
+    clear:both;
+    display:block;
+    float:left;
+    margin:13px 0;
+}
+.DeleteRelMediaItem {
+    float:right;
+}
+li.MediaItem .ItemWrapper .CategoryDescription {
+    clear:both;
+    float:left;
+    margin-bottom:13px;
+}
+ul.ItemsContainer {
+    clear:both;
+    display:block;
+    float:left;
+    width:100%;
+}
+li.ItemRow {
+    clear:both;
+    display:block;
+    float:left;
+    width:95%;
+}
+li.ItemRow.even_row {
+    background-color: #eeeeee !important;
+}
+li.ItemRow.odd_row {
+    background-color:#dEdEf5;
+}
+li.ItemRow:hover {
+    background-color: whitesmoke !important;
+}
+li.ItemRow .ItemNameWrap{
+
+    display:block;
+    float:left;
+    padding:9px;
+    width:89%;
+}
+li.ItemRow .ItemNameWrap .ItemName{
+    display:block;
+    float:left;
+}
+/* */
+ul.MediaModuleWrapper li .ItemWrapper{
+    display:none;
+}
+ul.MediaModuleWrapper li.Open .ItemWrapper{
+    display:block;
+}
+
+/** - ADD MEDIA POPUP - **/
+ul.AddMediaList {
+    margin: 13px 0;
+}
+
+ul.AddMediaList li.folder_row {
+
+}
+ul.AddMediaList li.folder_row ul {
+    margin-left:16px;
+}
+
+ul.AddMediaList li.MediaFolder .ItemNameWrap,
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder .ItemNameWrap,
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder ul li.MediaSubSubfolder .ItemNameWrap {
+    background-image:url("/design/SampleTemplate/images/icons/arrow_right.png");
+    background-position: -5px -2px;
+    background-repeat: no-repeat;
+    font-family:'GothamBold',Helvetica,sans-serif;
+    font-size:14px;
+    line-height:14px;
+    text-transform:uppercase;
+    margin-bottom: 6px;
+    padding:3px;
+    color: black;
+}
+ul.AddMediaList li.MediaFolder.Open .ItemNameWrap,
+ul.AddMediaList li.MediaFolder.Open ul li.MediaSubfolder.Open .ItemNameWrap,
+ul.AddMediaList li.MediaFolder.Open ul li.MediaSubfolder.Open ul li.MediaSubSubfolder.Open .ItemNameWrap{
+    background-image:url("/design/SampleTemplate/images/icons/arrow_down.png");
+    background-position: -5px -2px;
+    background-repeat: no-repeat;
+}
+ul.AddMediaList li.MediaFolder .ItemNameWrap {
+    background-color: #999999;
+    width:97%;
+    padding-left:15px;
+}
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder .ItemNameWrap {
+    background-color: #B3B3B3;
+    width:97%;
+    padding-left:15px;
+}
+ul.AddMediaList li.MediaFolder ul li.MediaSubfolder ul li.MediaSubSubfolder .ItemNameWrap {
+    background-color: #E5E3E3;
+    width:97%;
+    padding-left:15px;
+}
+ul.AddMediaList li .ItemNameWrap input.Special_Check_Under {
+
+}
+ul.AddMediaList li .ItemNameWrap .ItemName {
+    cursor: pointer;
+    padding-left: 6px;
+}
+
+ul.AddMediaList li ul{
+    display:none;
+}
+ul.AddMediaList li.Open ul{
+    display:block;
+}
+ul.AddMediaList li.Open ul li ul{
+    display:none;
+}
+ul.AddMediaList li.Open ul li.Open ul{
+    display:block;
+}
+ul.AddMediaList li.Open ul li.Open ul li ul{
+    display:none;
+}
+ul.AddMediaList li.Open ul li.Open ul li.Open ul{
+    display:block;
+}
+.DownloadTrigger{
+    background:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/download.png") no-repeat scroll 0 0 transparent;
+    display:block;
+    float:right;
+    height:14px;
+    margin-top:6px;
+    text-indent:-9999px;
+    width:78px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.DownloadTrigger:hover{
+    background:url("/design/SampleTemplate/widgets/Oxford/NotebookWidget/images/download.png") no-repeat scroll 0 -14px transparent;
+
+}
+.DownloadTriggerWrap{
+    float:right;
+    position: relative;
+}
+.DownloadButtons{
+    border:1px dotted #999;
+    background: white;
+    position: absolute;
+    right:82px;
+    top:4px;
+
+    padding: 1px;
+    display:none;
+}
+.Open .DownloadButtons{
+
+    display:block;
+}
+.DownloadButtons a{
+    font-family: "GothamBold";
+    color:#666;
+}
+.DownloadButtons a:hover{
+    color:#999;
+}
+.ItemNameWrap .ItemInfo{
+    font-size: 11px;
+    margin-right: 10px;
+}
+.ItemNameWrap .ItemInfo .head{
+    font-family: "GothamBold";
+
+}
+.ItemRow .ListButton{
+    background:url("/design/SampleTemplate/images/icons/ico_delete.gif") no-repeat scroll center top transparent;
+    color:#008000;
+    display:block;
+    font-family:Helvetica;
+    font-size:8px;
+    font-weight:normal !important;
+    height:6px;
+    padding-top:16px;
+    float:right;
+    width:16px;
+    cursor:pointer;
+    margin:5px;
+}
+.ItemRow .ViewButton{
+    background:url("/design/SampleTemplate/images/icons/zoom.gif") no-repeat scroll center top transparent;
+   
+}
+.ItemRow .ViewButton{
+    background:url("/design/SampleTemplate/images/icons/zoom.gif") no-repeat scroll center top transparent;
+
+}
+.CategoryNameWrap .SortArrow{
+    text-indent: -9999px;
+    overflow:hidden;
+}

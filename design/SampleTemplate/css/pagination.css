@@ -1,0 +1,53 @@
+.BaseRuler{
+    float:left;
+    
+    font-size: 9px;
+    line-height: 9px;
+}
+.BaseRuler ul{
+    float:left;
+}
+.BaseRuler li{
+    float:left;
+    margin-right: 3px;
+    font-family: 'WoodenNickelBlackRegular',Arial;
+    text-transform: capitalize;
+}
+.BaseRuler li.BaseRulerCurrentLi a{
+    color:#ccc;
+}
+.BaseRulerInfo{
+    float:left;
+}
+.BaseRuler li.BaseRulerFirstLi a{
+    display: block;
+    background:transparent url(../images/icons/button_pageFirst.gif) top left no-repeat;
+    width: 9px;
+    height: 9px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.BaseRuler li.BaseRulerPreviousLi a{
+    display: block;
+    background:transparent url(../images/icons/button_pagePrev.gif) top left no-repeat;
+    width: 9px;
+    height: 9px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.BaseRuler li.BaseRulerNextLi a{
+    display: block;
+    background:transparent url(../images/icons/button_pageNext.gif) top left no-repeat;
+    width: 9px;
+    height: 9px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.BaseRuler li.BaseRulerLastLi a{
+    display: block;
+    background:transparent url(../images/icons/button_pageLast.gif) top left no-repeat;
+    width: 9px;
+    height: 9px;
+    text-indent: -9999px;
+    overflow: hidden;
+}

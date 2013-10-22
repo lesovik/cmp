@@ -1,0 +1,31 @@
+AdminCoreManagement:
+  AdminPageManagement:
+    1: CorePage
+    2: CorePageContent
+    3: CoreSkin
+    4: CoreZone
+    5: CoreTemplate
+    8: CoreTree
+  AdminWidgetManagement:
+    6: CoreWidget
+    7: CoreBaseMenuWidget
+  AdminModelManagement:
+    7: CoreModel
+  AdminUserManagement:
+    9: CoreUser
+    10: CoreRole
+    11: CorePermission
+  AdminFileManagement:
+    13: CoreFile
+    14: CoreImage
+  AdminLocationManagement:
+    15: CoreProvince
+    16: CoreCountry
+  AdminLanguageManagement:
+    18: CoreLanguage
+    14: CoreLabel
+  AdminCollectionManagement:
+    17: CoreGroup
+  AdminConfigurationManagement:
+    17: CoreConstant
+    

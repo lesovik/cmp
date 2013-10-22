@@ -1,0 +1,28 @@
+.ReadDiv{
+    width: 100%;
+    float: left;
+
+}
+.ReadRecordDiv{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ReadLabelDiv{
+    float:left;
+    width:auto;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color:#999;
+    text-transform: capitalize;
+}
+.ReadRecordDiv.clob .ReadLabelDiv{
+
+    width:100%;
+    margin-bottom: 5px;
+}
+#ReadRecordDiv_id .ReadLabelDiv{
+
+    text-transform: uppercase;
+}

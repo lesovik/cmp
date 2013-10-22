@@ -1,0 +1,23 @@
+CorePermission:
+  tableName: core_permission
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+    object:
+      type: string(255)
+    object_id:
+      type: integer(4)
+  relations:
+    Roles:
+      class: CoreRole
+      refClass: CoreRolePermission
+      local: permission_id
+      remote: role_id
+      foreign: id
+      type: many
+

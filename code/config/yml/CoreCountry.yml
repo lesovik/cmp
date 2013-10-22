@@ -1,0 +1,28 @@
+CoreCountry:
+  tableName: core_country
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    code:
+      type: string(45)
+      notnull: true
+    continent:
+      type: string(2)
+      notnull: true
+    code3letter:
+      type: string(3)
+      notnull: true
+    code_numeric:
+      type: integer(4)
+      zerofill: true
+      notnull: true   
+    order_number:
+      type: integer(4)
+      zerofill: true
+      notnull: true
